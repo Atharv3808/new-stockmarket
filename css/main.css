@@ -15812,7 +15812,7 @@ a:hover {
 }
 
 .section-padding {
-    padding: 120px 0
+    padding: 60px 0
 }
 
 .py-188 {
@@ -17177,7 +17177,7 @@ body[dir=rtl] .mobile-header-wrapper-style .mobile-menu .menu-expand {
     right: unset !important
 }
 
-body[dir=rtl] .btn-scroll-top {
+body[dir=rtl] .btn-scroll-top { 
     left: 1.5rem !important;
     right: unset !important
 }

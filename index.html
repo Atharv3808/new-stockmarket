@@ -165,6 +165,37 @@
             border: 1px solid #fff;
         }
     </style>
+    <style>
+      html, body, * {
+        scroll-behavior: auto !important;
+      }
+      /* ...existing styles... */
+    </style>
+
+    <script>
+      // Force all scrollTo and scroll behavior to be instant
+      (function() {
+        const originalScrollTo = window.scrollTo;
+        window.scrollTo = function() {
+          if (arguments.length === 1 && typeof arguments[0] === 'object') {
+            arguments[0].behavior = 'auto';
+            originalScrollTo.call(window, arguments[0]);
+          } else {
+            originalScrollTo.apply(window, arguments);
+          }
+        };
+        // Also override scroll for scroll() if used
+        const originalScroll = window.scroll;
+        window.scroll = function() {
+          if (arguments.length === 1 && typeof arguments[0] === 'object') {
+            arguments[0].behavior = 'auto';
+            originalScroll.call(window, arguments[0]);
+          } else {
+            originalScroll.apply(window, arguments);
+          }
+        };
+      })();
+    </script>
 </head>
 
         
@@ -2126,6 +2157,101 @@
         isChatbotVisible = !isChatbotVisible;
         chatbot.style.display = isChatbotVisible ? 'block' : 'none';
         toggleBtn.textContent = isChatbotVisible ? 'Close Chat' : 'Chat with us';
+      });
+    </script>
+
+    <!-- Stock Market Candle Loader -->
+    <div id="candle-loader-overlay">
+      <div class="candle-loader">
+        <div class="candle candle-green">
+          <div class="wick wick-top"></div>
+          <div class="body"></div>
+          <div class="wick wick-bottom"></div>
+        </div>
+        <div class="candle candle-red">
+          <div class="wick wick-top"></div>
+          <div class="body"></div>
+          <div class="wick wick-bottom"></div>
+        </div>
+        <div class="candle candle-green">
+          <div class="wick wick-top"></div>
+          <div class="body"></div>
+          <div class="wick wick-bottom"></div>
+        </div>
+      </div>
+    </div>
+    <style>
+      #candle-loader-overlay {
+        position: fixed;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background: rgba(255,255,255,0.97);
+        z-index: 20000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: opacity 0.5s;
+      }
+      .candle-loader {
+        display: flex;
+        gap: 24px;
+        align-items: flex-end;
+      }
+      .candle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: candle-bounce 1.2s infinite;
+      }
+      .candle:nth-child(2) {
+        animation-delay: 0.4s;
+      }
+      .candle:nth-child(3) {
+        animation-delay: 0.8s;
+      }
+      .wick {
+        width: 4px;
+        background: #222;
+        border-radius: 2px;
+      }
+      .wick-top {
+        height: 18px;
+        margin-bottom: 2px;
+      }
+      .wick-bottom {
+        height: 10px;
+        margin-top: 2px;
+      }
+      .body {
+        width: 18px;
+        height: 40px;
+        border-radius: 4px;
+        margin: 0 0 0 0;
+      }
+      .candle-green .body {
+        background: linear-gradient(180deg, #4ade80 60%, #22c55e 100%);
+        box-shadow: 0 2px 8px #22c55e33;
+      }
+      .candle-red .body {
+        background: linear-gradient(180deg, #f87171 60%, #dc2626 100%);
+        box-shadow: 0 2px 8px #dc262633;
+      }
+      @keyframes candle-bounce {
+        0%, 100% { transform: translateY(0) scaleY(1); }
+        20% { transform: translateY(-10px) scaleY(1.1); }
+        40% { transform: translateY(0) scaleY(1); }
+        60% { transform: translateY(8px) scaleY(0.95); }
+        80% { transform: translateY(0) scaleY(1); }
+      }
+    </style>
+    <script>
+      window.addEventListener('load', function() {
+        const loader = document.getElementById('candle-loader-overlay');
+        if(loader) {
+          setTimeout(() => {
+            loader.style.opacity = '0';
+            setTimeout(() => loader.style.display = 'none', 500);
+          }, 1000);
+        }
       });
     </script>
 </body>
