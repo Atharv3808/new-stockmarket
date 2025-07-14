@@ -952,7 +952,7 @@
                                             viewBox="0 0 24 14" fill="#007BFF">
                                             <path class="fill-white"
                                                 d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z"
-                                                fill="white"></path>
+                                            fill="white"></path>
                                         </svg></div>
                                 </a>
                             </div>
@@ -2062,6 +2062,72 @@
         version":"2024.11.0","token":"5b1d398e9dad401ba2616b3d90f896ee","r":1,"server_timing":{"name":{"cfcachestatus":true,"cfedge":true,"cfextpri":true,"cfl4":true,"cforigin":true,"cfspeedbrain":true},"location_startswith":null}}"=""
         crossorigin="anonymous"></script>
     <!-- Our Courses Section -->
+
+    <!-- Chatbot Container -->
+    <div id="chatbot-container">
+      <iframe
+        src="https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/03/13/10/20250313101527-BLNT97IW.json"
+        allow="microphone; autoplay">
+      </iframe>
+    </div>
+
+    <!-- Toggle Button -->
+    <button id="chatbot-toggle">Chat with us</button>
+
+    <style>
+      /* Chatbot container */
+      #chatbot-container {
+        position: fixed;
+        bottom: 80px;
+        left: 20px;
+        width: 350px;
+        height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        display: none; /* Initially hidden */
+        z-index: 9999;
+      }
+
+      #chatbot-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+
+      /* Toggle Button */
+      #chatbot-toggle {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        padding: 12px 18px;
+        background-color: #4F46E5;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 16px;
+        z-index: 10000;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: background-color 0.3s ease;
+      }
+
+      #chatbot-toggle:hover {
+        background-color: #3730A3;
+      }
+    </style>
+
+    <script>
+      const toggleBtn = document.getElementById('chatbot-toggle');
+      const chatbot = document.getElementById('chatbot-container');
+      let isChatbotVisible = false;
+
+      toggleBtn.addEventListener('click', () => {
+        isChatbotVisible = !isChatbotVisible;
+        chatbot.style.display = isChatbotVisible ? 'block' : 'none';
+        toggleBtn.textContent = isChatbotVisible ? 'Close Chat' : 'Chat with us';
+      });
+    </script>
 </body>
 
 </html>

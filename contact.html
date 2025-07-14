@@ -614,6 +614,28 @@
     <script src="js/toast.js"></script>
     <script src="js/announcement.js"></script>
 
+    <style>
+        /* Faster scrolling */
+        html {
+            scroll-behavior: auto !important;
+        }
+        
+        /* Override smooth scrolling for better performance */
+        * {
+            scroll-behavior: auto !important;
+        }
+        
+        /* Faster transitions */
+        .btn-scroll-top {
+            transition: all 0.2s ease !important;
+        }
+        
+        /* Faster AOS animations */
+        [data-aos] {
+            transition-duration: 0.6s !important;
+        }
+    </style>
+    
     <script>
         // Form submission handling
         document.querySelector('form').addEventListener('submit', function(e) {
@@ -629,6 +651,31 @@
             
             // Reset the form
             this.reset();
+        });
+        
+        // Override smooth scrolling for faster performance
+        document.addEventListener('DOMContentLoaded', function() {
+            // Override scroll behavior
+            const originalScrollTo = window.scrollTo;
+            window.scrollTo = function(options) {
+                if (options && options.behavior === 'smooth') {
+                    options.behavior = 'auto';
+                }
+                return originalScrollTo.call(this, options);
+            };
+            
+            // Faster scroll to top
+            const scrollTopBtn = document.querySelector('.btn-scroll-top');
+            if (scrollTopBtn) {
+                scrollTopBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: 0,
+                        left: 0,
+                        behavior: 'auto'
+                    });
+                });
+            }
         });
     </script>
 </body>
