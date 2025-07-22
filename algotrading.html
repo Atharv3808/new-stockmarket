@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithmic Trading | School Of Stock Market</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/satoshi.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light w-100 z-999 navbar-sticky">
+            <div class="container">
+                <a href="index.html" class="btn btn-outline-primary d-lg-none ms-auto" id="mobile-navbar-back" style="display:flex;align-items:center;gap:6px;font-weight:500;position:relative;z-index:1001;">
+                    <span style="font-size:1.3rem;">&#8592;</span> <span style="font-size:1rem;">Back</span>
+                </a>
+                <a class="navbar-brand d-flex main-logo align-items-center" href="index.html">
+                    <img src="images/kj-removebg-preview.png" data-bb-lazy="false" alt="School Of Stock Market" class="logo-dark page_speed_183384709">
+                </a>
+                <div class="d-none d-lg-flex">
+                    <ul class="navbar-nav mx-auto gap-4 align-items-lg-center">
+                        <li class="nav-item dropdown"><a class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="#" target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Markets </a><div class="dropdown-menu p-4"></div></li>
+                        <li class="nav-item dropdown"><a class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="#" target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Platforms </a><div class="dropdown-menu p-4"></div></li>
+                        <li class="nav-item dropdown"><a class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="#" target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tools & Education </a>
+                            <div class="dropdown-menu p-4">
+                                <ul class="list-unstyled">
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> Stock Market Courses </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> Mutual Fund Education </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> Technical Analysis </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> Fundamental Analysis </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> Market Research </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> Investment Tools </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="about.html" target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About Us </a>
+                            <div class="dropdown-menu p-4">
+                                <ul class="list-unstyled">
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="about.html" target="_self"> About School Of Stock Market </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="contact.html" target="_self"> Contact Us </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="about.html" target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Knowledge Center </a>
+                            <div class="dropdown-menu p-4">
+                                <ul class="list-unstyled">
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="algotrading.html" target="_self"> Algo Trading Guide </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> All Calculators </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> Option Trading </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> Taxation for Traders </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> IPO, NCD, Right Issue </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> Knowledge Centre </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> Top 100 Stocks </a></li>
+                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center " href="#" target="_self"> Investment Options </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0"></div>
+                <a href="#" class="btn btn-gradient d-none d-md-block"> Login/Signup</a>
+        
+            </div>
+        </nav>
+        <!-- Mobile Menu Overlay -->
+        <div id="mobileMenu" class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar button-bg-2" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:#fff; z-index:9999; overflow-y:auto;">
+            <div class="mobile-header-wrapper-inner">
+                <div class="mobile-header-content-area position-relative">
+                    <button id="mobileMenuClose" style="position:absolute; top:20px; right:20px; background:none; border:none; font-size:2rem; z-index:10001;">&times;</button>
+                    <div class="d-flex justify-content-center align-items-center py-4">
+                        <a class="navbar-brand d-flex main-logo align-items-center" href="index.html">
+                            <img src="images/kj-removebg-preview.png" alt="School Of Stock Market" style="max-height:40px;">
+                        </a>
+                    </div>
+                    <nav>
+                        <ul class="mobile-menu font-heading ps-0">
+                            <li><a href="#">Markets</a></li>
+                            <li><a href="#">Platforms</a></li>
+                            <li class="has-children">
+                                <a href="#">Tools & Education</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Stock Market Courses</a></li>
+                                    <li><a href="#">Mutual Fund Education</a></li>
+                                    <li><a href="#">Technical Analysis</a></li>
+                                    <li><a href="#">Fundamental Analysis</a></li>
+                                    <li><a href="#">Market Research</a></li>
+                                    <li><a href="#">Investment Tools</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-children">
+                                <a href="#">About Us</a>
+                                <ul class="sub-menu">
+                                    <li><a href="about.html">About School Of Stock Market</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-children">
+                                <a href="#">Knowledge Center</a>
+                                <ul class="sub-menu">
+                                    <li><a href="algotrading.html">Algo Trading Guide</a></li>
+                                    <li><a href="#">All Calculators</a></li>
+                                    <li><a href="#">Option Trading</a></li>
+                                    <li><a href="#">Taxation for Traders</a></li>
+                                    <li><a href="#">IPO, NCD, Right Issue</a></li>
+                                    <li><a href="#">Knowledge Centre</a></li>
+                                    <li><a href="#">Top 100 Stocks</a></li>
+                                    <li><a href="#">Investment Options</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="btn btn-gradient w-100 my-3">Login/Signup</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <script>
+            const mobileMenu = document.getElementById('mobileMenu');
+            const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+            const mobileMenuClose = document.getElementById('mobileMenuClose');
+            mobileMenuToggle.addEventListener('click', function() {
+                mobileMenu.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            });
+            mobileMenuClose.addEventListener('click', function() {
+                mobileMenu.style.display = 'none';
+                document.body.style.overflow = '';
+            });
+        </script>
+        <div class="offcanvas offcanvas-top offcanvasTop h-50" tabindex="-1">
+           
+            <div class="offcanvas-body">
+                <div class="container">
+                    <div class="row py-md-5 py-2">
+                        <form action="h" method="GET" class="col-12 col-lg-8 mx-auto">
+                            <h4 class="mb-2 fs-sm-5">What are you looking for?</h4>
+                            <p class="text-500 fs-6 mb-5">Explore our services and discover how we can help you achieve
+                                your goals</p>
+                            <div class="input-group" data-aos="zoom-in"><input type="text"
+                                    class="form-control ps-5 rounded-start-pill" name="name"
+                                    placeholder="Enter Your Keywords"><button type="submit"
+                                    class="btn btn-primary rounded-end-pill"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path
+                                            d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z"
+                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg></button></div>
+                            <div class="d-flex flex-column flex-lg-row mt-5"><strong
+                                    class="d-inline fs-6 me-2">Suggest:</strong>
+                                <div class="d-flex flex-wrap gap-2"><a
+                                        href="#">Startup</a><a
+                                        href="#"> Agency</a><a
+                                        href="#"> Creative</a><a
+                                        href="#"> Consulting</a><a
+                                        href="#"> IT services</a><a
+                                        href="#"> Pricing</a></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar button-bg-2">
+        <div class="mobile-header-wrapper-inner">
+            <div class="mobile-header-content-area">
+                <div class="perfect-scroll">
+                    <div class="mobile-menu-wrap mobile-header-border">
+                        <nav>
+                            <ul class="mobile-menu font-heading ps-0">
+                                <li class="has-children"><a class="" href="#" target="_self"> Markets </a>
+                                   
+                                </li>
+                                <li class="has-children"><a class="" href="#" target="_self"> Invest </a>
+                                    <ul class="sub-menu">
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/high-yield" target="_self"> High Yield </a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children"><a class="" href="#" target="_self"> Conditions </a>
+                                    <ul class="sub-menu">
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/deposits-and-withdrawals" target="_self"> Deposits and Withdrawals </a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children"><a class="" href="#" target="_self"> Accounts </a>
+                                    <ul class="sub-menu">
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/classic" target="_self"> Classic </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/premier" target="_self"> Premier </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/vip" target="_self"> VIP </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/demo" target="_self"> Demo </a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children"><a class="" href="#" target="_self"> Platforms </a>
+                                    
+                                </li>
+                                <li class="has-children"><a class="" href="#" target="_self"> Tools & Education </a>
+                                
+                                </li>
+                                <li class="has-children"><a class="" href="#" target="_self"> About Us </a>
+                                    <ul class="sub-menu">
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="about.html" target="_self"> About School Of Stock Market</a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="contact.html" target="_self"> Contact Us </a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children"><a class="" href="#" target="_self"> Knowledge Center </a>
+                                    <ul class="sub-menu">
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="algotrading.html" target="_self"> Algo Trading Guide </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="#" target="_self"> All Calculators </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="#" target="_self"> Option Trading </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="#" target="_self"> Taxation for Traders </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="#" target="_self"> IPO, NCD, Right Issue </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="#" target="_self"> Knowledge Centre </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="#" target="_self"> Top 100 Stocks </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="#" target="_self"> Investment Options </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <main>
+        <section class="hero-banner position-relative overflow-hidden section-padding" style="background: linear-gradient(135deg, #6d4df2 0%, #8c71ff 100%);">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <h1 class="mb-4 text-white">Algorithmic Trading (Algo Trading)</h1>
+                        <p class="fs-5 text-white">Algorithmic trading, also known as “Algo Trading” or “rule based trading”, is a process for executing orders that considers variables including time, price, and volume while using automatic pre-programmed trading instructions.</p>
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <img src="images/feature-3.png" alt="Algorithmic Trading" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-padding bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <h2 class="mb-4">What is Algorithmic Trading?</h2>
+                        <p>Algorithmic trading, also known as automated trading, black-box trading, or simply algo trading, is the process of employing computers that are programmed to execute trades in a way that is quicker and more frequent than a human trader can ever be.<br>Although you can create your algorithm and use it to generate buy or sell signals, full automation is not permissible for retail traders; therefore, manual intervention is necessary while placing orders.</p>
+                        <h3 class="mt-5 mb-3">Benefits of Algorithmic Trading</h3>
+                        <ul>
+                            <li>Trades executed at the best possible prices</li>
+                            <li>Order placement is real-time and accurate (high probability of an order being executed at the desired price)</li>
+                            <li>Trades are timed correctly and instantly to avoid significant price changes</li>
+                            <li>Reduced transaction costs</li>
+                            <li>Realtime automated checks on different market conditions</li>
+                            <li>Low probability of manual errors when placing the orders</li>
+                            <li>Algo trading can be tested for after market events using historical and real-time data to see if it is a viable trading strategy</li>
+                            <li>Minimize the probability of errors by traders influenced by emotions and psychology.</li>
+                        </ul>
+                        <blockquote class="blockquote my-4">
+                            <p>“High-frequency trading (HFT) aims to profit from placing a significant number of orders immediately across various marketplaces and decision parameters based on pre-programmed instructions.”</p>
+                        </blockquote>
+                        <h3 class="mt-5 mb-3">Who Uses Algorithmic Trading?</h3>
+                        <ul>
+                            <li>Mid- to long-term investors or buy-side companies—pension funds, mutual funds (MF), insurance providers—use algo trading to acquire stocks in bulk without impacting stock prices.</li>
+                            <li>Traders with short-term positions, brokerage houses, speculators, and arbitrageurs benefit from automated trade placements and increased market liquidity.</li>
+                            <li>Systematic traders—trend followers, hedge funds, or pairs traders—find it efficient to program their trading rules and let the program trade automatically.</li>
+                        </ul>
+                        <h3 class="mt-5 mb-3">Algorithmic Trading Strategies</h3>
+                        <ul>
+                            <li><strong>Multi-Leg Options Order:</strong> A multi-leg Option is a request to trade choices with more than one strike price, expiration date, or aversion to the underlying asset’s price. Multi-leg options orders, like spreads and butterflies, are often used to capture benefits when volatility is expected but direction and timing are unclear.</li>
+                            <li><strong>Scalping:</strong> A strategy aimed at profiting from minor price changes. Traders place many trades in a single day, believing small moves are easier to catch than large ones. Strict exit strategies are used to prevent large losses.</li>
+                            <li><strong>Trend Trading:</strong> Attempts to capture gains by analyzing an asset’s momentum in a particular direction (up or down).</li>
+                            <li><strong>Breakout Trading:</strong> Entering the market when the price moves outside a defined range (support or resistance), ideally with increased volume.</li>
+                            <li><strong>Calendar Spread:</strong> A strategy involving simultaneous long and short positions on the same asset but with different delivery dates.</li>
+                            <li><strong>Order Slicer:</strong> Slicers allow you to arrange your orders in sequence, useful for managing multiple trades efficiently.</li>
+                        </ul>
+                        <h3 class="mt-5 mb-3">Technical Requirements for Algorithmic Trading</h3>
+                        <ul>
+                            <li>Computer-programming knowledge to program the required trading strategy, hired programmers, or pre-made trading software.</li>
+                            <li>Network availability and access to trading platforms to execute orders.</li>
+                            <li>Easy availability to market data feeds that will be observed by the algorithm for window to place orders.</li>
+                            <li>The power and base to back-test the system once it is built before it goes live on real markets.</li>
+                            <li>Available historical data for back-testing depends on the complexity of the rules implemented in the algorithm.</li>
+                        </ul>
+                        <h3 class="mt-5 mb-3">Is Algorithmic Trading Legal?</h3>
+                        <p>Indeed, algorithmic trading is permitted. No laws or regulations restrict trading algorithms. Some investors/traders may be skeptical about this kind of trading, but it is not bad or illegal.</p>
+                        <h3 class="mt-5 mb-3">How Do I Learn Algorithmic Trading?</h3>
+                        <p>Quantitative analysis or quantitative modeling is used significantly in algorithmic trading. You’ll require trading knowledge or prior financial market experience because you’ll be investing in the stock market. Last but not least, you’ll probably need experience with coding or programming because algorithmic trading frequently relies on technology and computers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer page_speed_1696565770">
+        <div class="section-footer position-relative overflow-hidden">
+            <div class="tp-footer-main-area tp-footer-border">
+                <div class="container-fluid">
+                    <div class="container position-relative z-2">
+                        <div class="row py-90">
+                            <div class="col-lg-4 pe-10"><a href="https://infinia.botble.com"><img
+                                        src="images/kj-removebg-preview.png" data-bb-lazy="false"
+                                        alt="Multipurpose Business & Startup Theme"
+                                        class="logo-dark page_speed_1832777681"></a>
+                                <p class="text-white fw-medium mt-3 mb-6 opacity-50">SOSM Services Pvt. Ltd. offers a technology-enabled platform supporting professionals through tools, education, and insights.</p>
+                                <div class="d-flex social-icons"><a href="https://www.facebook.com" title="Facebook"
+                                        target="_blank"
+                                        class="text-white border border-light border-opacity-10 icon-shape icon-md border-end-0"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="icon svg-icon-ti-ti-brand-facebook page_speed_210008429">
+                                            <path
+                                                d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3">
+                                            </path>
+                                        </svg></a><a href="https://x.com" title="X (Twitter)" target="_blank"
+                                        class="text-white border border-light border-opacity-10 icon-shape icon-md border-end-0"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="icon svg-icon-ti-ti-brand-x page_speed_210008429">
+                                            <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+                                            <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
+                                        </svg></a><a href="https://www.youtube.com" title="YouTube" target="_blank"
+                                        class="text-white border border-light border-opacity-10 icon-shape icon-md border-end-0"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="icon svg-icon-ti-ti-brand-youtube page_speed_210008429">
+                                            <path
+                                                d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z">
+                                            </path>
+                                            <path d="M10 9l5 3l-5 3z"></path>
+                                        </svg></a><a href="https://www.linkedin.com" title="Instagram" target="_blank"
+                                        class="text-white border border-light border-opacity-10 icon-shape icon-md "><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="icon svg-icon-ti-ti-brand-linkedin page_speed_210008429">
+                                            <path d="M8 11v5"></path>
+                                            <path d="M8 8v.01"></path>
+                                            <path d="M12 16v-5"></path>
+                                            <path d="M16 16v-3a2 2 0 1 0 -4 0"></path>
+                                            <path
+                                                d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z">
+                                            </path>
+                                        </svg></a></div>
+                            </div>
+                                <div class="col-lg-2 col-md-4 col-6">
+                                <h3 class="text-white opacity-50 fs-6 fw-black pb-3 pt-5">Company</h3>
+                                <div class="d-flex flex-column align-items-start"><span
+                                        class="hover-effect text-white mb-2 fw-medium fs-6"> About us </span><span
+                                        class="hover-effect text-white mb-2 fw-medium fs-6"> Our Team </span><span
+                                        class="hover-effect text-white mb-2 fw-medium fs-6"> Contact </span><span
+                                        class="hover-effect text-white mb-2 fw-medium fs-6"> Pricing </span><span
+                                        class="hover-effect text-white mb-2 fw-medium fs-6"> Privacy Policy </span><span
+                                        class="hover-effect text-white mb-2 fw-medium fs-6"> Features </span></div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-6">
+                                <h3 class="text-white opacity-50 fs-6 fw-black pb-3 pt-5">Pages</h3>
+                                <div class="d-flex flex-column align-items-start"><span
+                                        class="hover-effect text-white mb-2 fw-medium fs-6"> Projects </span><span
+                                        class="hover-effect text-white mb-2 fw-medium fs-6"> Services </span><span
+                                        class="hover-effect text-white mb-2 fw-medium fs-6"> Blog </span><span
+                                        class="hover-effect text-white mb-2 fw-medium fs-6"> Contact </span><span
+                                        class="hover-effect text-white mb-2 fw-medium fs-6"> 404 </span><span
+                                        class="hover-effect text-white mb-2 fw-medium fs-6"> Features v2 </span></div>
+                            </div>
+        
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="container position-relative z-2">
+                    <div class="row text-center py-4" style="margin-top: 2rem;">
+                        <div class="col-12 mb-3">
+                            <div class=" rounded-3 p-4 border border-light border-opacity-25">
+                                <h6 class="text-white mb-3 fw-bold">Disclaimer</h6>
+                                <p class="text-white opacity-90 fs-7 mb-0" style="line-height: 1.6;">
+                                    Disclaimer
+
+The content provided on this website is strictly for educational and informational purposes only. School of Stock Market does not offer any personalized investment, legal, or tax advice through this platform.
+While certain research reports, market views, and strategy insights may be shared by qualified professionals, including SEBI-registered Research Analysts, users must understand that none of the content should be construed as a direct recommendation to buy, sell, or hold any financial instrument.
+All investments involve risk, including the potential loss of capital. Past performance is not indicative of future results. Users are strongly advised to consult with a SEBI-registered Investment Advisor and/or a qualified Mutual Fund Consultant before making any financial decisions.
+SOSM, its team, and associated partners are not liable for any losses or damages arising from the use of this platform, whether direct or indirect. The platform does not guarantee the accuracy, timeliness, or completeness of any information provided, especially as market data and conditions are subject to change.
+We also do not engage in portfolio management, investment advisory, or financial product distribution. Any platform-based access to third-party professionals, tools, or information is provided solely for the user's learning and convenience.
+By accessing or using this website, you agree to this disclaimer along with our Terms of Use and Privacy Policy.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <span class="text-white opacity-50"> Copyright © 2025 School Of Stock Market. All Rights Reserved </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="position-absolute top-0 start-50 translate-middle-x z-0"><img src="images/line-bg.png"
+                    alt="background image"></div>
+            <div class="position-absolute top-0 start-0 z-0"><img src="images/ellipse-left.png" alt="left"></div>
+            <div class="position-absolute top-0 end-0 z-0"><img src="images/ellipse-right.png" alt="right"></div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

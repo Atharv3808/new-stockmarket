@@ -1,0 +1,1225 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SOSM - Education-Only Subscription Plans</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <style>
+            :root {
+                --primary-color: #6d4df2;
+                --primary-color-dark: #6342ec;
+                --primary-color-dark-light: #7f7d88;
+                --primary-color-dark-soft: #271c52;
+                --primary-color-rgb: 109, 77, 242 !important;
+                --primary-color-dark-rgb: 99, 66, 236 !important;
+                --select-text-color: #ffffff !important;
+                --primary-gradient-bg: linear-gradient(90deg, #6d4df2 0%, #8c71ff 100%);
+            }
+        </style>
+        <link media="all" type="text/css" rel="stylesheet" href="css/language-public.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/content-styles.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/odometer.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/magnific-popup.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap-icons.min.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/slick.min.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/satoshi.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/main.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/theme.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/aos.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/announcement.css">
+        <link href="https://infinia.botble.com/" hreflang="x-default" rel="alternate">
+        <link href="https://infinia.botble.com/" hreflang="en" rel="alternate">
+        <link href="https://infinia.botble.com/vi" hreflang="vi" rel="alternate">
+        <link href="https://infinia.botble.com/ar" hreflang="ar" rel="alternate">
+        <script> window.siteUrl = "https://infinia.botble.com";</script>
+        <style>
+            :root {
+                --primary-font: "Satoshi-Variable", sans-serif;
+                --h1-size: 60px;
+                --h2-size: 48px;
+                --h3-size: 38px;
+                --h4-size: 31px;
+                --h5-size: 25px;
+                --h6-size: 20px;
+                --body-size: 16px;
+            }
+            
+            h1 {
+                font-size: var(--h1-size);
+            }
+
+            h2 {
+                font-size: var(--h2-size);
+            }
+
+            h3 {
+                font-size: var(--h3-size);
+            }
+
+            h4 {
+                font-size: var(--h4-size);
+            }
+
+            h5 {
+                font-size: var(--h5-size);
+            }
+
+            h6 {
+                font-size: var(--h6-size);
+            }
+
+            body {
+                font-size: var(--body-size);
+            }
+        </style>
+        <link media="all" type="text/css" rel="stylesheet" href="css/language-public.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/content-styles.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/odometer.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/magnific-popup.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap-icons.min.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/slick.min.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/satoshi.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/main.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/theme.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/aos.css">
+
+        <link media="all" type="text/css" rel="stylesheet" href="css/announcement.css">
+        <style>
+            :root {
+                --primary-blue: #1e40af;
+                --primary-green: #059669;
+                --primary-red: #dc2626;
+                --primary-purple: #7c3aed;
+                --accent-orange: #f59e0b;
+                --text-dark: #1f2937;
+                --text-light: #6b7280;
+                --bg-light: #f8fafc;
+                --bg-white: #ffffff;
+                --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+                --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+                --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+                --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+                color: var(--text-dark);
+                line-height: 1.6;
+                overflow-x: hidden;
+            }
+
+            /* Animated background particles */
+            .bg-particles {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                z-index: -1;
+            }
+
+            .particle {
+                position: absolute;
+                width: 4px;
+                height: 4px;
+                background: rgba(30, 64, 175, 0.1);
+                border-radius: 50%;
+                animation: float 6s ease-in-out infinite;
+            }
+
+            @keyframes float {
+                0%, 100% { transform: translateY(0px) rotate(0deg); }
+                50% { transform: translateY(-20px) rotate(180deg); }
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+
+            /* Enhanced Header */
+            header {
+                position: relative;
+                text-align: center;
+                padding: 60px 20px;
+                color: white;
+                border-radius: 0 0 40px 40px;
+                box-shadow: var(--shadow-xl);
+                margin-bottom: 60px;
+                overflow: hidden;
+            }
+
+            header::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+                opacity: 0.3;
+            }
+
+            .logo {
+                font-size: 3rem;
+                margin-bottom: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+                position: relative;
+                z-index: 1;
+                animation: slideInDown 1s ease-out;
+            }
+
+            .logo i {
+                background: linear-gradient(45deg, #fbbf24, #f59e0b);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+            }
+
+            h1 {
+                font-size: 3.5rem;
+                margin-bottom: 15px;
+                font-weight: 800;
+                position: relative;
+                z-index: 1;
+                animation: slideInUp 1s ease-out 0.2s both;
+                background: black;
+                background-clip: text;
+                color: black;
+            }
+
+            .subtitle {
+                font-size: 1.3rem;
+                max-width: 800px;
+                margin: 0 auto 30px;
+                opacity: 0.95;
+                position: relative;
+                z-index: 1;
+                animation: fadeIn 1s ease-out 0.4s both;
+                font-weight: 400;
+            }
+
+            .highlight {
+                background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+                padding: 20px 35px;
+                border-radius: 50px;
+                display: inline-block;
+                margin: 20px 0;
+                font-weight: 700;
+                color: var(--text-dark);
+                box-shadow: var(--shadow-lg);
+                position: relative;
+                z-index: 1;
+                animation: pulse 2s ease-in-out infinite;
+                transform: scale(1);
+                transition: transform 0.3s ease;
+            }
+
+            .highlight:hover {
+                transform: scale(1.05);
+            }
+
+            @keyframes pulse {
+                0%, 100% { box-shadow: var(--shadow-lg); }
+                50% { box-shadow: 0 20px 40px -5px rgba(245, 158, 11, 0.4); }
+            }
+
+            .note {
+                background: rgba(255, 255, 255, 0.2);
+                backdrop-filter: blur(10px);
+                padding: 20px;
+                border-radius: 15px;
+                max-width: 800px;
+                margin: 25px auto 0;
+                font-size: 1rem;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                position: relative;
+                z-index: 1;
+                animation: slideInUp 1s ease-out 0.6s both;
+            }
+
+            /* Enhanced Plans Container */
+            .plans-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+                gap: 40px;
+                margin-bottom: 80px;
+                padding: 0 20px;
+            }
+
+            .plan-card {
+                background: var(--bg-white);
+                border-radius: 25px;
+                overflow: hidden;
+                box-shadow: var(--shadow-md);
+                transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                position: relative;
+                border: 1px solid rgba(0, 0, 0, 0.05);
+                animation: slideInUp 0.6s ease-out both;
+            }
+
+            .plan-card:nth-child(1) { animation-delay: 0.1s; }
+            .plan-card:nth-child(2) { animation-delay: 0.2s; }
+            .plan-card:nth-child(3) { animation-delay: 0.3s; }
+            .plan-card:nth-child(4) { animation-delay: 0.4s; }
+
+            .plan-card:hover {
+                transform: translateY(-15px) scale(1.02);
+                box-shadow: var(--shadow-xl);
+            }
+
+            .plan-card::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 4px;
+                background: linear-gradient(90deg, transparent, rgba(255,255,255,0.8), transparent);
+                transform: translateX(-100%);
+                transition: transform 0.6s ease;
+            }
+
+            .plan-card:hover::before {
+                transform: translateX(100%);
+            }
+
+            .plan-header {
+                padding: 35px 25px;
+                color: white;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .plan-basic .plan-header { 
+                background: rgb(255, 189, 67);
+            }
+            .plan-core .plan-header { 
+                background: linear-gradient(135deg, var(--primary-green) 0%, #10b981 100%);
+            }
+            .plan-advanced .plan-header { 
+                background: linear-gradient(135deg, var(--primary-red) 0%, #ef4444 100%);
+            }
+            .plan-combo .plan-header { 
+                background: linear-gradient(135deg, var(--primary-purple) 0%, #8b5cf6 100%);
+            }
+
+            .plan-header::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
+            }
+
+            .plan-title {
+                font-size: 2rem;
+                margin-bottom: 12px;
+                font-weight: 700;
+                letter-spacing: -0.025em;
+            }
+
+            .plan-target {
+                font-size: 1rem;
+                opacity: 0.9;
+                margin-bottom: 20px;
+                font-weight: 400;
+            }
+
+            .price-container {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                margin: 20px 0;
+                flex-wrap: wrap;
+            }
+
+            .price-monthly, .price-yearly {
+                background: rgba(255, 255, 255, 0.25);
+                backdrop-filter: blur(10px);
+                padding: 12px 20px;
+                border-radius: 12px;
+                font-weight: 600;
+                font-size: 1.1rem;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                transition: all 0.3s ease;
+            }
+
+            .price-yearly {
+                position: relative;
+            }
+
+            .price-yearly::after {
+                content: 'SAVE 12%';
+                position: absolute;
+                top: -8px;
+                right: -8px;
+                background: var(--accent-orange);
+                color: white;
+                font-size: 0.7rem;
+                padding: 2px 6px;
+                border-radius: 4px;
+                font-weight: 700;
+            }
+
+            .plan-content {
+                padding: 35px 25px;
+            }
+
+            .features-title {
+                font-size: 1.4rem;
+                margin-bottom: 25px;
+                color: var(--text-dark);
+                font-weight: 600;
+                text-align: center;
+                position: relative;
+            }
+
+            .features-title::after {
+                content: '';
+                position: absolute;
+                bottom: -8px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 40px;
+                height: 2px;
+                background: linear-gradient(90deg, var(--primary-blue), var(--primary-green));
+                border-radius: 1px;
+            }
+
+            .features-list {
+                list-style-type: none;
+                margin-bottom: 35px;
+            }
+
+            .features-list li {
+                padding: 15px 0;
+                border-bottom: 1px solid #f1f5f9;
+                display: flex;
+                align-items: flex-start;
+                transition: all 0.3s ease;
+            }
+
+            .features-list li:hover {
+                background: #f8fafc;
+                margin: 0 -15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 8px;
+            }
+
+            .features-list li:last-child {
+                border-bottom: none;
+            }
+
+            .features-list li i {
+                color: var(--primary-green);
+                margin-right: 12px;
+                margin-top: 3px;
+                font-size: 1.1rem;
+            }
+
+            .btn-subscribe {
+                display: block;
+                width: 100%;
+                padding: 18px;
+                border: none;
+                border-radius: 15px;
+                background: var(--text-dark);
+                color: white;
+                font-size: 1.2rem;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .plan-basic .btn-subscribe { background: linear-gradient(135deg, var(--primary-blue), #3b82f6); }
+            .plan-core .btn-subscribe { background: linear-gradient(135deg, var(--primary-green), #10b981); }
+            .plan-advanced .btn-subscribe { background: linear-gradient(135deg, var(--primary-red), #ef4444); }
+            .plan-combo .btn-subscribe { background: linear-gradient(135deg, var(--primary-purple), #8b5cf6); }
+
+            .btn-subscribe::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+                transition: left 0.5s ease;
+            }
+
+            .btn-subscribe:hover::before {
+                left: 100%;
+            }
+
+            .btn-subscribe:hover {
+                transform: translateY(-2px);
+                box-shadow: var(--shadow-lg);
+            }
+
+            .btn-subscribe:active {
+                transform: translateY(0);
+            }
+
+            .student-offer {
+                position: absolute;
+                top: -12px;
+                right: -12px;
+                background: linear-gradient(135deg, var(--accent-orange) 0%, #f59e0b 100%);
+                color: white;
+                padding: 12px 24px;
+                border-radius: 25px;
+                font-weight: 700;
+                font-size: 0.9rem;
+                box-shadow: var(--shadow-md);
+                transform: rotate(8deg);
+                z-index: 10;
+                animation: bounce 2s ease-in-out infinite;
+            }
+
+            @keyframes bounce {
+                0%, 100% { transform: rotate(8deg) translateY(0); }
+                50% { transform: rotate(8deg) translateY(-5px); }
+            }
+
+            /* Enhanced Disclaimer */
+            .disclaimer {
+                background: var(--bg-white);
+                padding: 40px;
+                border-radius: 25px;
+                box-shadow: var(--shadow-lg);
+                max-width: 1200px;
+                margin: 60px auto;
+                border-left: 6px solid var(--primary-red);
+                position: relative;
+            }
+
+            .disclaimer::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 2px;
+                background: linear-gradient(90deg, var(--primary-red), var(--accent-orange), var(--primary-red));
+            }
+
+            .disclaimer h2 {
+                color: var(--primary-red);
+                margin-bottom: 20px;
+                font-size: 1.8rem;
+                font-weight: 700;
+            }
+
+            .disclaimer p {
+                margin-bottom: 15px;
+                font-size: 1.1rem;
+                line-height: 1.7;
+                color: var(--text-light);
+            }
+
+            /* Enhanced Footer */
+            footer {
+                text-align: center;
+                padding: 50px 20px;
+                background: linear-gradient(135deg, var(--text-dark) 0%, #374151 100%);
+                color: white;
+                border-radius: 40px 40px 0 0;
+                margin-top: 80px;
+                position: relative;
+                overflow: hidden;
+            }
+
+            footer::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 2px;
+                background: linear-gradient(90deg, var(--primary-blue), var(--primary-green), var(--primary-red), var(--primary-purple));
+            }
+
+            .footer-logo {
+                font-size: 2.5rem;
+                margin-bottom: 20px;
+                font-weight: 700;
+            }
+
+            .footer-logo i {
+                background: linear-gradient(45deg, var(--accent-orange), #fbbf24);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+
+            /* Animations */
+            @keyframes slideInDown {
+                from {
+                    opacity: 0;
+                    transform: translateY(-30px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            @keyframes slideInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            @keyframes fadeIn {
+                from { opacity: 0; }
+                to { opacity: 1; }
+            }
+
+            /* Responsive Design */
+            @media (max-width: 768px) {
+                .plans-container {
+                    grid-template-columns: 1fr;
+                    gap: 30px;
+                    padding: 0 10px;
+                }
+
+                h1 {
+                    font-size: 2.5rem;
+                }
+
+                .logo {
+                    font-size: 2.5rem;
+                }
+
+                .price-container {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 10px;
+                }
+
+                .plan-content {
+                    padding: 25px 20px;
+                }
+
+                .disclaimer {
+                    padding: 30px 20px;
+                    margin: 40px 10px;
+                }
+
+                .student-offer {
+                    font-size: 0.8rem;
+                    padding: 8px 16px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .container {
+                    padding: 0 10px;
+                }
+
+                header {
+                    padding: 40px 15px;
+                    border-radius: 0 0 25px 25px;
+                }
+
+                h1 {
+                    font-size: 2rem;
+                }
+
+                .subtitle {
+                    font-size: 1.1rem;
+                }
+
+                .highlight {
+                    padding: 15px 25px;
+                    font-size: 0.9rem;
+                }
+                .fas fa-graduation-cap {
+
+
+                }
+            }
+
+
+            /* Loading animation */
+            .loading {
+                opacity: 0;
+                animation: fadeInUp 0.6s ease-out forwards;
+            }
+
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(20px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Animated background particles -->
+        <div class="bg-particles" id="particles"></div>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light w-100 z-999 navbar-sticky">
+                <div class="container"><a class="navbar-brand d-flex main-logo align-items-center"
+                        href="index.html"><img src="images/kj-removebg-preview.png" data-bb-lazy="false"
+                            alt="Multipurpose Business & Startup Theme" class="logo-dark page_speed_183384709"></a>
+                    <div class="d-none d-lg-flex">
+                        <ul class="navbar-nav mx-auto gap-4 align-items-lg-center">
+                            <li class="nav-item"><a
+                                    class="nav-link fw-bold d-md-flex align-items-center" href="Pricing.html"
+                                    target="_self">Model Portfolio</a>
+                            </li>
+                            <li class="nav-item"><a
+                                    class="nav-link fw-bold d-md-flex align-items-center" href="Brochers.html"
+                                    target="_self">Investment Advisory</a>
+                            </li>
+                            <li class="nav-item dropdown"><a
+                                    class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="#"
+                                    target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tools & Education </a>
+                                <div class="dropdown-menu p-4">
+                                    <ul class="list-unstyled">
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                                href="#" target="_self"> Stock Market Courses </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                                href="#" target="_self"> Mutual Fund Education </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                                href="#" target="_self"> Technical Analysis </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                                href="#" target="_self"> Fundamental Analysis </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                                href="#" target="_self"> Market Research </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                                href="#" target="_self"> Investment Tools </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown"><a
+                                    class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="about.html"
+                                    target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About Us </a>
+                                <div class="dropdown-menu p-4">
+                                    <ul class="list-unstyled">
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                                href="about.html" target="_self"> About School Of Stock Market </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                                href="contact.html" target="_self"> Contact Us </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a
+                                class="nav-link fw-bold d-md-flex align-items-center" href="subscription.html   "
+                                target="_self">Pricing</a>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0"></div>
+                        <a href="" class="btn btn-gradient d-none d-md-block"> Login/Signup</a>
+                        <div class="burger-icon burger-icon-white border rounded-3"><span
+                                class="burger-icon-top"></span><span class="burger-icon-mid"></span><span
+                                class="burger-icon-bottom"></span></div>
+                    </div>
+                </div>
+            </nav>
+            <div class="offcanvas offcanvas-top offcanvasTop h-50" tabindex="-1">
+            
+                <div class="offcanvas-body">
+                    <div class="container">
+                        <div class="row py-md-5 py-2">
+                            <form action="h" method="GET" class="col-12 col-lg-8 mx-auto">
+                                <h4 class="mb-2 fs-sm-5">What are you looking for?</h4>
+                                <p class="text-500 fs-6 mb-5">Explore our services and discover how we can help you achieve
+                                    your goals</p>
+                                <div class="input-group" data-aos="zoom-in"><input type="text"
+                                        class="form-control ps-5 rounded-start-pill" name="name"
+                                        placeholder="Enter Your Keywords"><button type="submit"
+                                        class="btn btn-primary rounded-end-pill"><svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z"
+                                                stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg></button></div>
+                                <div class="d-flex flex-column flex-lg-row mt-5"><strong
+                                        class="d-inline fs-6 me-2">Suggest:</strong>
+                                    <div class="d-flex flex-wrap gap-2"><a
+                                            href="#">Startup</a><a
+                                            href="#"> Agency</a><a
+                                            href="#"> Creative</a><a
+                                            href="#"> Consulting</a><a
+                                            href="#"> IT services</a><a
+                                            href="#"> Pricing</a></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar button-bg-2">
+                <div class="mobile-header-wrapper-inner">
+                    <a href="index.html" class="close-mobile-header float-right ml-auto">Close</a>
+                    <div class="mobile-header-content-area">
+                        <div class="perfect-scroll">
+                            <div class="mobile-menu-wrap mobile-header-border">                            <nav>
+                                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                        <li class="nav-item"><a class="nav-link" href="#" target="_self"> Markets </a>
+                                        </li>
+                                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Invest </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/high-yield" target="_self"> High Yield </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Conditions </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/deposits-and-withdrawals" target="_self"> Deposits and Withdrawals </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Accounts </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/classic" target="_self"> Classic </a></li>
+                                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/premier" target="_self"> Premier </a></li>
+                                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/vip" target="_self"> VIP </a></li>
+                                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/demo" target="_self"> Demo </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="#" target="_self"> Platforms </a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="#" target="_self"> Tools & Education </a>
+                                        </li>
+                                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About Us </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="about.html" target="_self"> About School Of Stock Market</a></li>
+                                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="contact.html" target="_self"> Contact Us </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <header>
+            <div class="logo" style="color: black;">
+                <i class="fas fa-graduation-cap" style="color: black;"></i>
+                <span style="color: black;">School Of Stock Market</span>
+            </div>
+            <h1>Education-Only Subscription Plans</h1>
+            <p class="subtitle">Gain market knowledge without portfolio management services. Choose the perfect learning path for your financial education journey.</p>
+            <div class="highlight">
+                <i class="fas fa-id-card"></i> 20% OFF on all plans with valid student ID
+            </div>
+            <div class="note">
+                <p><i class="fas fa-info-circle"></i> Note: These are purely educational services. No portfolio management or financial product recommendations included.</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="plans-container">
+                <!-- Basic Learner Plan -->
+                <div class="plan-card plan-basic loading">
+                    <div class="student-offer">STUDENT OFFER</div>
+                    <div class="plan-header">
+                        <h2 class="plan-title">Basic Learner</h2>
+                        <p class="plan-target">College students, beginners, financial literacy seekers</p>
+                        <div class="price-container">
+                            <div class="price-monthly">₹199/month</div>
+                            <div class="price-yearly">₹2,100/year</div>
+                        </div>
+                    </div>
+                    <div class="plan-content">
+                        <h3 class="features-title">What's Included</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle"></i> Stock Market Basics</li>
+                            <li><i class="fas fa-check-circle"></i> Mutual Fund Basics</li>
+                            <li><i class="fas fa-check-circle"></i> Personal Finance (Budgeting, Emergency Fund)</li>
+                            <li><i class="fas fa-check-circle"></i> 5 New Lessons Every Month</li>
+                            <li><i class="fas fa-check-circle"></i> Certificate of Completion</li>
+                            <li><i class="fas fa-check-circle"></i> Weekly Quiz & Assessment</li>
+                            <li><i class="fas fa-check-circle"></i> Community Access (Discussion Forum)</li>
+                            <li><i class="fas fa-check-circle"></i> Access via Mobile App</li>
+                        </ul>
+                        <button class="btn-subscribe" onclick="handleSubscription('basic')">
+                            <span>Start Learning</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Core Market Skills Plan -->
+                <div class="plan-card plan-core loading">
+                    <div class="student-offer">STUDENT OFFER</div>
+                    <div class="plan-header">
+                        <h2 class="plan-title">Core Market Skills</h2>
+                        <p class="plan-target">Retail investors, first-time market participants</p>
+                        <div class="price-container">
+                            <div class="price-monthly">₹499/month</div>
+                            <div class="price-yearly">₹5,500/year</div>
+                        </div>
+                    </div>
+                    <div class="plan-content">
+                        <h3 class="features-title">Everything in Basic, plus:</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle"></i> Technical Analysis (Beginner to Intermediate)</li>
+                            <li><i class="fas fa-check-circle"></i> Fundamental Analysis (Ratios, Reports)</li>
+                            <li><i class="fas fa-check-circle"></i> Mutual Fund Selection & Portfolio Building</li>
+                            <li><i class="fas fa-check-circle"></i> Case Studies & Real Market Examples</li>
+                            <li><i class="fas fa-check-circle"></i> Monthly Doubt-Solving Live Sessions</li>
+                            <li><i class="fas fa-check-circle"></i> Progress Tracker & Topic-wise Tests</li>
+                            <li><i class="fas fa-check-circle"></i> Marathi & Hindi Content Access</li>
+                        </ul>
+                        <button class="btn-subscribe" onclick="handleSubscription('core')">
+                            <span>Enhance Your Skills</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Advanced Market Expert Plan -->
+                <div class="plan-card plan-advanced loading">
+                    <div class="student-offer">STUDENT OFFER</div>
+                    <div class="plan-header">
+                        <h2 class="plan-title">Advanced Market Expert</h2>
+                        <p class="plan-target">Traders, active investors, aspiring professionals</p>
+                        <div class="price-container">
+                            <div class="price-monthly">₹999/month</div>
+                            <div class="price-yearly">₹10,500/year</div>
+                        </div>
+                    </div>
+                    <div class="plan-content">
+                        <h3 class="features-title">Everything in Core, plus:</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle"></i> F&O Trading (Options, Futures, Strategies)</li>
+                            <li><i class="fas fa-check-circle"></i> Crypto Market (Wallets, SIP, Risk, Taxes)</li>
+                            <li><i class="fas fa-check-circle"></i> Algo Trading Basics</li>
+                            <li><i class="fas fa-check-circle"></i> CFA-Based Financial Planning Modules</li>
+                            <li><i class="fas fa-check-circle"></i> Behavioral Finance & Market Psychology</li>
+                            <li><i class="fas fa-check-circle"></i> Weekly Live Masterclass with Experts</li>
+                            <li><i class="fas fa-check-circle"></i> Project Assignments & Worksheets</li>
+                            <li><i class="fas fa-check-circle"></i> Premium PDF Notes & Workbooks</li>
+                            <li><i class="fas fa-check-circle"></i> Graded Course Completion Certificate</li>
+                            <li><i class="fas fa-check-circle"></i> Priority Support (Chat + Email)</li>
+                        </ul>
+                        <button class="btn-subscribe" onclick="handleSubscription('advanced')">
+                            <span>Become an Expert</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Combo Certification Bundle -->
+                <div class="plan-card plan-combo loading">
+                    <div class="student-offer">STUDENT OFFER</div>
+                    <div class="plan-header">
+                        <h2 class="plan-title">Combo Certification</h2>
+                        <p class="plan-target">Freelancers, job-seekers in financial field</p>
+                        <div class="price-container">
+                            <div class="price-yearly">₹2,999 (One-time)</div>
+                        </div>
+                    </div>
+                    <div class="plan-content">
+                        <h3 class="features-title">Bundle Includes (6-month access)</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle"></i> Stock Market + Mutual Funds Modules</li>
+                            <li><i class="fas fa-check-circle"></i> Technical Analysis + F&O Courses</li>
+                            <li><i class="fas fa-check-circle"></i> Downloadable Workbook</li>
+                            <li><i class="fas fa-check-circle"></i> Certification Exam</li>
+                            <li><i class="fas fa-check-circle"></i> Resume-Boosting Certificate</li>
+                            <li><i class="fas fa-check-circle"></i> Premium Content Access</li>
+                            <li><i class="fas fa-check-circle"></i> Priority Email Support</li>
+                        </ul>
+                        <button class="btn-subscribe" onclick="handleSubscription('combo')">
+                            <span>Get Certified</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="disclaimer loading">
+                <h2><i class="fas fa-exclamation-triangle"></i> Important Disclaimer</h2>
+                <p>SOSM provides educational content only. We do not offer portfolio management services, investment advice, or financial product recommendations. Our courses are designed to enhance your financial knowledge and should not be considered as a substitute for professional financial advice. All investment decisions are solely your responsibility.</p>
+                <p>All educational content is SEBI-compliant and regularly updated to reflect current market regulations and best practices.</p>
+            </div>
+        </div>
+
+        <footer>
+            <footer class="footer page_speed_1696565770">
+                <div class="section-footer position-relative overflow-hidden">
+                    <div class="tp-footer-main-area tp-footer-border">
+                        <div class="container-fluid">
+                            <div class="container position-relative z-2">
+                                <div class="row py-90">
+                                    <div class="col-lg-4 pe-10">
+                                        <a href="index.html">
+                                            <img src="images/kj-removebg-preview.png" data-bb-lazy="false" alt="School of Stock Market (SOSM)"
+                                                class="logo-white page_speed_1832777681">
+                                        </a>
+                                        <p class="text-white fw-medium mt-3 mb-6 opacity-50">Empowering individuals with comprehensive financial education and market insights to make informed investment decisions.</p>
+                                        <div class="d-flex social-icons">
+                                            <a href="https://www.instagram.com/schoolofstockmarket24" title="Instagram" target="_blank"
+                                                class="text-white border border-light border-opacity-10 icon-shape icon-md border-end-0">
+                                                <i class="bi bi-instagram"></i>
+                                            </a>
+                                            <a href="https://www.facebook.com" title="Facebook" target="_blank"
+                                                class="text-white border border-light border-opacity-10 icon-shape icon-md border-end-0">
+                                                <i class="bi bi-facebook"></i>
+                                            </a>
+                                            <a href="https://www.youtube.com" title="YouTube" target="_blank"
+                                                class="text-white border border-light border-opacity-10 icon-shape icon-md border-end-0">
+                                                <i class="bi bi-youtube"></i>
+                                            </a>
+                                            <a href="https://www.linkedin.com" title="LinkedIn" target="_blank"
+                                                class="text-white border border-light border-opacity-10 icon-shape icon-md">
+                                                <i class="bi bi-linkedin"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <h3 class="text-white opacity-50 fs-6 fw-black pb-3 pt-5">Company</h3>
+                                        <div class="d-flex flex-column align-items-start">
+                                            <a href="about.html" class="hover-effect text-white mb-2 fw-medium fs-6">About Us</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Our Team</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Contact</a>
+                                            <a href="Pricing.html" class="hover-effect text-white mb-2 fw-medium fs-6">Pricing</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Privacy Policy</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Terms & Conditions</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <h3 class="text-white opacity-50 fs-6 fw-black pb-3 pt-5">Services</h3>
+                                        <div class="d-flex flex-column align-items-start">
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Stock Market Courses</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Mutual Fund Education</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Technical Analysis</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Fundamental Analysis</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Market Research</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Investment Tools</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <h3 class="text-white opacity-50 fs-6 fw-black pb-3 pt-5">Support</h3>
+                                        <div class="d-flex flex-column align-items-start">
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Help Center</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Contact Support</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">FAQ</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Community</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Feedback</a>
+                                            <a href="#" class="hover-effect text-white mb-2 fw-medium fs-6">Report Issue</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <h3 class="text-white opacity-50 fs-6 fw-black pb-3 pt-5">Contact</h3>
+                                        <div class="d-flex flex-column align-items-start">
+                                            <p class="text-white mb-2 fw-medium fs-6">Email: info@schoolofstockmarket.com</p>
+                                            <p class="text-white mb-2 fw-medium fs-6">Phone: +91-9970101402</p>
+                                            <p class="text-white mb-2 fw-medium fs-6">Office Hours: Mon-Sat, 10 AM-6 PM (IST)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" rounded-3 p-4 border border-light border-opacity-25 bg-primary">
+                        <h6 class="text-white mb-3 fw-bold">Disclaimer</h6>
+                        <p class="text-white opacity-90 fs-7 mb-0" style="line-height: 1.6;">
+        The content provided on this website is strictly for educational and informational purposes only. School of Stock Market (SOSM) does not offer any personalized investment, legal, or tax advice through this platform.
+        While certain research reports, market views, and strategy insights may be shared by qualified professionals, including SEBI-registered Research Analysts, users must understand that none of the content should be construed as a direct recommendation to buy, sell, or hold any financial instrument.
+        All investments involve risk, including the potential loss of capital. Past performance is not indicative of future results. Users are strongly advised to consult with a SEBI-registered Investment Advisor and/or a qualified Mutual Fund Consultant before making any financial decisions.
+        SOSM, its team, and associated partners are not liable for any losses or damages arising from the use of this platform, whether direct or indirect. The platform does not guarantee the accuracy, timeliness, or completeness of any information provided, especially as market data and conditions are subject to change.
+        We also do not engage in portfolio management, investment advisory, or financial product distribution. Any platform-based access to third-party professionals, tools, or information is provided solely for the user’s learning and convenience.
+        By accessing or using this website, you agree to this disclaimer along with our Terms of Use and Privacy Policy.
+                        </p>
+                    </div>
+                </div>
+                    <div class="container-fluid">
+                        <div class="container position-relative z-2">
+                            <div class="row text-center py-4">
+                                <span class="text-primary opacity-50">Copyright © 2025 School of Stock Market (SOSM). All Rights Reserved</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="position-absolute top-0 start-50 translate-middle-x z-0">
+                        <img src="images/line-bg.png" alt="background image">
+                    </div>
+                    <div class="position-absolute top-0 start-0 z-0">
+                        <img src="images/ellipse-left.png" alt="left">
+                    </div>
+                    <div class="position-absolute top-0 end-0 z-0">
+                        <img src="images/ellipse-right.png" alt="right">
+                    </div>
+                </div>
+            </footer>
+            <p>Empowering Investors Through Education</p>
+            <p>© 2024 SOSM Financial Education. All rights reserved.</p>
+        </footer>
+
+        <script>
+            // Create animated background particles
+            function createParticles() {
+                const particlesContainer = document.getElementById('particles');
+                const particleCount = 50;
+
+                for (let i = 0; i < particleCount; i++) {
+                    const particle = document.createElement('div');
+                    particle.className = 'particle';
+                    particle.style.left = Math.random() * 100 + '%';
+                    particle.style.top = Math.random() * 100 + '%';
+                    particle.style.animationDelay = Math.random() * 6 + 's';
+                    particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
+                    particlesContainer.appendChild(particle);
+                }
+            }
+
+            // Enhanced intersection observer for animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                        entry.target.classList.add('animate-in');
+                    }
+                });
+            }, observerOptions);
+
+            // Handle subscription button clicks
+            function handleSubscription(planType) {
+                const button = event.target;
+                const originalText = button.innerHTML;
+                
+                // Add loading state
+                button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Processing...';
+                button.disabled = true;
+                
+                // Simulate API call
+                setTimeout(() => {
+                    button.innerHTML = '<i class="fas fa-check"></i> Redirecting...';
+                    
+                    setTimeout(() => {
+                        // Reset button
+                        button.innerHTML = originalText;
+                        button.disabled = false;
+                        
+                        // Show success message (you can replace this with actual redirect)
+                        alert(`Redirecting to ${planType} plan subscription...`);
+                    }, 1000);
+                }, 2000);
+            }
+
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Add parallax effect to header
+            window.addEventListener('scroll', () => {
+                const scrolled = window.pageYOffset;
+                const header = document.querySelector('header');
+                const rate = scrolled * -0.5;
+                
+                if (header) {
+                    header.style.transform = `translateY(${rate}px)`;
+                }
+            });
+
+            // Initialize animations and effects
+            document.addEventListener('DOMContentLoaded', function() {
+                // Create particles
+                createParticles();
+                
+                // Observe elements for animations
+                document.querySelectorAll('.loading').forEach(el => {
+                    observer.observe(el);
+                });
+                
+                // Add stagger animation to plan cards
+                const planCards = document.querySelectorAll('.plan-card');
+                planCards.forEach((card, index) => {
+                    card.style.animationDelay = `${index * 0.1}s`;
+                });
+                
+                // Add hover effects to feature list items
+                document.querySelectorAll('.features-list li').forEach(item => {
+                    item.addEventListener('mouseenter', function() {
+                        this.style.transform = 'translateX(5px)';
+                    });
+                    
+                    item.addEventListener('mouseleave', function() {
+                        this.style.transform = 'translateX(0)';
+                    });
+                });
+            });
+
+            // Add keyboard navigation support
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Tab') {
+                    document.body.classList.add('keyboard-navigation');
+                }
+            });
+
+            document.addEventListener('mousedown', function() {
+                document.body.classList.remove('keyboard-navigation');
+            });
+
+            // Performance optimization: Throttle scroll events
+            let ticking = false;
+            function updateScrollEffects() {
+                // Add scroll-based animations here
+                ticking = false;
+            }
+
+            window.addEventListener('scroll', function() {
+                if (!ticking) {
+                    requestAnimationFrame(updateScrollEffects);
+                    ticking = true;
+                }
+            });
+        </script>
+    </body>
+    </html>

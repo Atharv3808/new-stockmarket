@@ -1,21 +1,7 @@
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="en">
+<html data-bs-theme="dark" lang="en">
 
 <head>
-    <link rel="dns-prefetch" href="//infinia.botble.com">
-    <link rel="dns-prefetch" href="//fonts.bunny.net">
-    <link rel="dns-prefetch" href="//www.w3.org">
-    <link rel="dns-prefetch" href="//www.google.com">
-    <link rel="dns-prefetch" href="//infinia-home-2.botble.com">
-    <link rel="dns-prefetch" href="//infinia-home-3.botble.com">
-    <link rel="dns-prefetch" href="//infinia-home-4.botble.com">
-    <link rel="dns-prefetch" href="//infinia-home-5.botble.com">
-    <link rel="dns-prefetch" href="//google.com">
-    <link rel="dns-prefetch" href="//www.googletagmanager.com">
-    <link rel="dns-prefetch" href="//www.facebook.com">
-    <link rel="dns-prefetch" href="//x.com">
-    <link rel="dns-prefetch" href="//www.youtube.com">
-    <link rel="dns-prefetch" href="//www.linkedin.com">
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="images/stock-market_4449895.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,7 +30,7 @@
             --h6-size: 20px;
             --body-size: 16px;
         }
-
+        
         h1 {
             font-size: var(--h1-size);
         }
@@ -193,10 +179,69 @@
         };
       })();
     </script>
+    <style>
+@media (max-width: 991.98px) {
+  .shortcode-hero-banner .row.content {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  .shortcode-hero-banner .col-lg-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-bottom: 2rem;
+  }
+  .shortcode-hero-banner .pe-2 {
+    padding-right: 0 !important;
+  }
+  .shortcode-hero-banner h3.ds-3 {
+    font-size: 2rem !important;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .shortcode-hero-banner p.pe-10 {
+    padding-right: 0 !important;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .shortcode-hero-banner .btn,
+  .shortcode-hero-banner .btn + .btn {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-left: 0 !important;
+  }
+  .shortcode-hero-banner .btn + .btn {
+    margin-top: 0;
+  }
+  .shortcode-hero-banner .position-relative {
+    justify-content: center !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+@media (max-width: 575.98px) {
+  .shortcode-hero-banner h3.ds-3 {
+    font-size: 1.5rem !important;
+  }
+  .shortcode-hero-banner p.pe-10 {
+    font-size: 0.95rem;
+  }
+  .shortcode-hero-banner .hero-img,
+  .shortcode-hero-banner .shape-1 img,
+  .shortcode-hero-banner .shape-2 img,
+  .shortcode-hero-banner .shape-3 img {
+    max-width: 95vw;
+  }
+  .shortcode-hero-banner .alltuchtopdown.card-hero {
+    max-width: 95vw;
+    padding: 1rem;
+  }
+}
+</style>
 </head>
 
-        
-    </div>
+<body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light w-100 z-999 navbar-sticky">
             <div class="container"><a class="navbar-brand d-flex main-logo align-items-center"
@@ -206,37 +251,13 @@
                         class="logo-white page_speed_183384709"></a>
                 <div class="d-none d-lg-flex">
                     <ul class="navbar-nav mx-auto gap-4 align-items-lg-center">
-                        <li class="nav-item dropdown"><a
-                                class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="#"
-                                target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Markets </a>
-                            <div class="dropdown-menu p-4">
-                                <ul class="list-unstyled">
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Forex </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Indices </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Stocks </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Commodities </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Cryptocurrencies </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> ETFs </a></li>
-                                </ul>
-                            </div>
+                        <li class="nav-item"><a
+                                class="nav-link fw-bold d-md-flex align-items-center" href="Pricing.html"
+                                target="_self">Model Portfolio</a>
                         </li>
-                        <li class="nav-item dropdown"><a
-                                class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="#"
-                                target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Platforms </a>
-                            <div class="dropdown-menu p-4">
-                                <ul class="list-unstyled">
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> FIX API </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Metatrader </a></li>
-                                </ul>
-                            </div>
+                        <li class="nav-item"><a
+                                class="nav-link fw-bold d-md-flex align-items-center" href="Brochers.html"
+                                target="_self">Investment Advisory</a>
                         </li>
                         <li class="nav-item dropdown"><a
                                 class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="#"
@@ -244,23 +265,17 @@
                             <div class="dropdown-menu p-4">
                                 <ul class="list-unstyled">
                                     <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> FXblue </a></li>
+                                            href="#" target="_self"> Stock Market Courses </a></li>
                                     <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Trading Central </a></li>
+                                            href="#" target="_self"> Mutual Fund Education </a></li>
                                     <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> VPS </a></li>
+                                            href="#" target="_self"> Technical Analysis </a></li>
                                     <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Margin Requirements </a></li>
+                                            href="#" target="_self"> Fundamental Analysis </a></li>
                                     <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Candlesticks </a></li>
+                                            href="#" target="_self"> Market Research </a></li>
                                     <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Trade Strategies </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Indicators </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Market Insights </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Guides </a></li>
+                                            href="#" target="_self"> Investment Tools </a></li>
                                 </ul>
                             </div>
                         </li>
@@ -270,26 +285,20 @@
                             <div class="dropdown-menu p-4">
                                 <ul class="list-unstyled">
                                     <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="about.html" target="_self"> About SOSM </a></li>
+                                            href="about.html" target="_self"> About School Of Stock Market </a></li>
                                     <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
                                             href="contact.html" target="_self"> Contact Us </a></li>
                                 </ul>
                             </div>
                         </li>
+                        <li class="nav-item"><a
+                            class="nav-link fw-bold d-md-flex align-items-center" href="subscription.html   "
+                            target="_self">Pricing</a>
+                    </li>
                     </ul>
                 </div>
-                <div class="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0"><a href="#" title="Search"
-                        data-bs-toggle="offcanvas" data-bs-target=".offcanvasTop"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path class="stroke-dark"
-                                d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z"
-                                stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></a>
-                    <div
-                        class="dark-light-switcher d-flex justify-content-center align-items-center icon-shape icon-md border bg-white rounded-3 ms-3 me-md-3 me-0">
-                        <i class="bi theme-icon bi-sun-fill"></i><i class="bi theme-icon bi-moon-stars-fill"></i>
-                    </div>
-                    <a href="/contact" class="btn btn-gradient d-none d-md-block"> Login/Signup</a>
+                <div class="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0"></div>
+                    <a href="" class="btn btn-gradient d-none d-md-block"> Login/Signup</a>
                     <div class="burger-icon burger-icon-white border rounded-3"><span
                             class="burger-icon-top"></span><span class="burger-icon-mid"></span><span
                             class="burger-icon-bottom"></span></div>
@@ -332,62 +341,39 @@
         </div>
         <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar button-bg-2">
             <div class="mobile-header-wrapper-inner">
+                <a href="index.html" class="close-mobile-header float-right ml-auto">Close</a>
                 <div class="mobile-header-content-area">
                     <div class="perfect-scroll">
-                        <div class="mobile-menu-wrap mobile-header-border">
-                            <nav>
-                                <ul class="mobile-menu font-heading ps-0">
-                                    <li class="has-children"><a class="" href="#" target="_self"> Markets </a>
-                                        <ul class="sub-menu">
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/forex" target="_self"> Forex </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/indices" target="_self"> Indices </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/stocks" target="_self"> Stocks </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/commodities" target="_self"> Commodities </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/cryptocurrencies" target="_self"> Cryptocurrencies </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/etfs" target="_self"> ETFs </a></li>
-                                        </ul>
+                        <div class="mobile-menu-wrap mobile-header-border">                            <nav>
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item"><a class="nav-link" href="#" target="_self"> Markets </a>
                                     </li>
-                                    <li class="has-children"><a class="" href="#" target="_self"> Invest </a>
-                                        <ul class="sub-menu">
+                                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Invest </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/high-yield" target="_self"> High Yield </a></li>
                                         </ul>
                                     </li>
-                                    <li class="has-children"><a class="" href="#" target="_self"> Conditions </a>
-                                        <ul class="sub-menu">
+                                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Conditions </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/deposits-and-withdrawals" target="_self"> Deposits and Withdrawals </a></li>
                                         </ul>
                                     </li>
-                                    <li class="has-children"><a class="" href="#" target="_self"> Accounts </a>
-                                        <ul class="sub-menu">
+                                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Accounts </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/classic" target="_self"> Classic </a></li>
                                             <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/premier" target="_self"> Premier </a></li>
                                             <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/vip" target="_self"> VIP </a></li>
                                             <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/demo" target="_self"> Demo </a></li>
                                         </ul>
                                     </li>
-                                    <li class="has-children"><a class="" href="#" target="_self"> Platforms </a>
-                                        <ul class="sub-menu">
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/fix-api" target="_self"> FIX API </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/metatrader" target="_self"> Metatrader </a></li>
-                                        </ul>
+                                    <li class="nav-item"><a class="nav-link" href="#" target="_self"> Platforms </a>
                                     </li>
-                                    <li class="has-children"><a class="" href="#" target="_self"> Tools & Education </a>
-                                        <ul class="sub-menu">
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/fxblue" target="_self"> FXblue </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/trading-central" target="_self"> Trading Central </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/vps" target="_self"> VPS </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/margin-requirements" target="_self"> Margin Requirements </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/candlesticks" target="_self"> Candlesticks </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/trade-strategies" target="_self"> Trade Strategies </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/indicators" target="_self"> Indicators </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/market-insights" target="_self"> Market Insights </a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/guides" target="_self"> Guides </a></li>
-                                        </ul>
+                                    <li class="nav-item"><a class="nav-link" href="#" target="_self"> Tools & Education </a>
                                     </li>
-                                    <li class="has-children"><a class="" href="#" target="_self"> About Us </a>
-                                        <ul class="sub-menu">
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/" target="_self"> About SOSM</a></li>
-                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/contact-us" target="_self"> Contact Us </a></li>
+                                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About Us </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="about.html" target="_self"> About School Of Stock Market</a></li>
+                                            <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="contact.html" target="_self"> Contact Us </a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -399,7 +385,7 @@
         </div>
     </header>
     <div class="modal fade newsletter-popup" id="newsletter-popup" tabindex="-1" aria-hidden="true" data-delay="5"
-        title="Stay Updated with Infinia" data-url="https://infinia.botble.com/ajax/newsletter/popup"></div>
+        title="Stay Updated with SOSM" data-url="h"></div>
     <main>
         <h1 class="d-none">Multipurpose Business & Startup Theme</h1>
         <div class="ck-content">
@@ -417,10 +403,10 @@
                                         <path d="M10.3125 5.5625L14.4375 9.5L10.3125 13.4375" stroke="#6342EC"
                                             stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"></path>
                                         <path d="M14.25 9.5H3.5625" stroke="#6342EC" stroke-width="1.125"
-                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                            stroke-linecap="round" stroke-linejoin="round"></path>  
                                     </svg>
                                 </div>
-                                <h3 class="ds-3 mt-4 mb-5" data-aos="fade-zoom-in" data-aos-delay="0">School of Stock Market (SOSM)</h3>
+                                <h3 class="ds-3 mt-4 mb-5" data-aos="fade-zoom-in" data-aos-delay="0">School Of Stock Market</h3>
                                 <p class="pe-10 mb-5" data-aos="fade-zoom-in" data-aos-delay="100">A next-generation learning and research platform designed to promote financial literacy, market understanding, and ethical investment practices.</p><a
                                     href="about.html" class="btn btn-gradient" data-aos="fade-zoom-in"
                                     data-aos-delay="100"> Learn More <svg class="icon svg-icon-ti-ti-arrow-up-right"
@@ -429,7 +415,7 @@
                                         stroke-linejoin="round">
                                         <path d="M17 7l-10 10"></path>
                                         <path d="M8 7l9 0l0 9"></path>
-                                    </svg></a><a href="tel:+919970101402" class="ms-md-3 ms-2 btn btn-outline-secondary hover-up"
+                                    </svg></a><a href="tel:+919405669420" class="ms-md-3 ms-2 btn btn-outline-secondary hover-up"
                                     data-aos="fade-zoom-in" data-aos-delay="100"><svg class="icon svg-icon-ti-ti-phone"
                                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -442,10 +428,10 @@
                         </div>
                         <div class="col-lg-6 position-relative justify-content-center"><img src="images/hb-right.png"
                                 data-bb-lazy="true" class="hero-img" loading="lazy" alt="Image">
-                            <div class="shape-1 position-absolute"><img src="images/condition-4.svg" data-bb-lazy="true"
+                            <div class="shape-1 position-absolute"><img src="images/_-removebg-preview.png" data-bb-lazy="true"
                                     data-aos="zoom-in" data-aos-delay="100" class="rightToLeft" loading="lazy"
                                     alt="Image"></div>
-                            <div class="shape-2 position-absolute d-none d-md-block"><img src="images/auc-04.svg"
+                            <div class="shape-2 position-absolute d-none d-md-block"><img src="images/Untitled_design__11_-removebg-preview.png"
                                     data-bb-lazy="true" data-aos="zoom-in" data-aos-delay="200" class="" loading="lazy"
                                     alt="Image"></div>
                             <div class="shape-3 position-absolute d-none d-md-block"><img src="images/3.png"
@@ -475,32 +461,120 @@
             <div data-block-id="partners"
                 class="shortcode-partners shortcode-partners-style-1 section-logo-cloud container-fluid mt-8 mt-lg-0 border-top border-bottom page_speed_210008429">
                 <div class="container">
-                    <div class="row mask-image">
-                        <div class="partners-slider my-7 position-relative z-1">
-                            <div class="partner-item"><a href="https://google.com" target="_blank"><img
-                                        src="images/1_1.png" data-bb-lazy="true" loading="lazy" alt="Framer"></a></div>
-                            <div class="partner-item"><a href="https://google.com" target="_blank"><img
-                                        src="images/2_1.png" data-bb-lazy="true" loading="lazy" alt="Reddit"></a></div>
-                            <div class="partner-item"><a href="https://google.com" target="_blank"><img
-                                        src="images/3_1.png" data-bb-lazy="true" loading="lazy" alt="Netflix"></a></div>
-                            <div class="partner-item"><a href="https://google.com" target="_blank"><img
-                                        src="images/4_1.png" data-bb-lazy="true" loading="lazy" alt="Microsoft"></a>
-                            </div>
-                            <div class="partner-item"><a href="https://google.com" target="_blank"><img
-                                        src="images/5.png" data-bb-lazy="true" loading="lazy" alt="Discover"></a></div>
-                            <div class="partner-item"><a href="https://google.com" target="_blank"><img
-                                        src="images/6.png" data-bb-lazy="true" loading="lazy" alt="Lemon Squeezy"></a>
-                            </div>
-                            <div class="partner-item"><a href="https://google.com" target="_blank"><img
-                                        src="images/7.png" data-bb-lazy="true" loading="lazy" alt="PayPal"></a></div>
-                            <div class="partner-item"><a href="https://google.com" target="_blank"><img
-                                        src="images/8.png" data-bb-lazy="true" loading="lazy" alt="Mailchimp"></a></div>
-                            <div class="partner-item"><a href="https://google.com" target="_blank"><img
-                                        src="images/3_1.png" data-bb-lazy="true" loading="lazy" alt="Shopify"></a></div>
-                            <div class="partner-item"><a href="https://google.com" target="_blank"><img
-                                        src="images/5.png" data-bb-lazy="true" loading="lazy" alt="Slack"></a></div>
-                        </div>
-                    </div>
+                    <style>
+                        body {
+                          margin: 0;
+                          font-family: Arial, sans-serif;
+                          background: #000;
+                          color: #fff;
+                        }
+                    
+                        .ticker-wrap {
+                          width: 100%;
+                          overflow: hidden;
+                          padding: 20px 0; /* Enhanced padding for better spacing */
+                          border-radius: 10px; /* Added border radius for a modern look */
+                        }
+                    
+                        .ticker {
+                          display: inline-block;
+                          white-space: nowrap;
+                          animation: scroll-left 25s linear infinite;
+                          font-size: 18px; /* Enhanced font size for better readability */
+                        }
+                    
+                        .ticker-item {
+                          display: inline-block;
+                          margin: 0 30px; /* Enhanced margin for better spacing */
+                          color: #fff;
+                          font-weight: bold; /* Enhanced font weight for better emphasis */
+                        }
+                    
+                        .ticker-item span {
+                          margin-left: 10px; /* Enhanced margin for better spacing */
+                        }
+                    
+                        .green {
+                          color: #00ff00;
+                        }
+                    
+                        .red {
+                          color: #ff4c4c;
+                        }
+                    
+                        .blink {
+                          animation: blink-animation 0.8s ease-in-out 2;
+                        }
+                    
+                        @keyframes scroll-left {
+                          0% { transform: translateX(100%); }
+                          100% { transform: translateX(-100%); }
+                        }
+                    
+                        @keyframes blink-animation {
+                          0%, 100% { opacity: 1; }
+                          50% { opacity: 0; }
+                        }
+                    
+                        @media (max-width: 600px) {
+                          .ticker-item {
+                            margin: 0 20px; /* Enhanced margin for better spacing on smaller screens */
+                            font-size: 16px; /* Enhanced font size for better readability on smaller screens */
+                          }
+                        }
+                      </style>
+                    </head>
+                    <body>
+                      <div class="ticker-wrap">
+                        <div class="ticker" id="ticker">Loading stock data...</div>
+                      </div>
+                    
+                      <script>
+                        const API_KEY = '70bc7f5a77cc4c27a93bd3c3812b2bb7'; // Replace with your actual Twelve Data API key
+                        const symbols = ['AAPL', 'GOOGL', 'TSLA', 'MSFT', 'AMZN',];
+                        let previousPrices = {};
+                    
+                        async function fetchStockData() {
+                          const ticker = document.getElementById('ticker');
+                          let tickerHTML = '';
+                    
+                          for (const symbol of symbols) {
+                            try {
+                              const res = await fetch(`https://api.twelvedata.com/quote?symbol=${symbol}&apikey=${API_KEY}`);
+                              const data = await res.json();
+                    
+                              if (data && data.close && data.previous_close) {
+                                const current = parseFloat(data.close).toFixed(2);
+                                const previous = parseFloat(data.previous_close).toFixed(2);
+                                const change = (current - previous).toFixed(2);
+                                const isUp = current > previous;
+                    
+                                const arrow = isUp ? '↑' : '↓';
+                                const className = isUp ? 'green' : 'red';
+                    
+                                const prevPrice = previousPrices[symbol];
+                                const blinkClass = prevPrice && prevPrice !== current ? 'blink' : '';
+                                previousPrices[symbol] = current;
+                    
+                                tickerHTML += `
+                                  <div class="ticker-item">
+                                    ${symbol}: <span class="${className} ${blinkClass}">$${current} ${arrow} (${change})</span>
+                                  </div>
+                                `;
+                              } else {
+                                tickerHTML += `<div class="ticker-item">${symbol}: <span class="red">Unavailable</span></div>`;
+                              }
+                            } catch (err) {
+                              console.error(`Error fetching ${symbol}:`, err);
+                            }
+                          }
+                    
+                          ticker.innerHTML = tickerHTML;
+                        }
+                    
+                        fetchStockData();
+                        setInterval(fetchStockData, 30000); // refresh every 30 sec
+                      </script>
                 </div>
             </div>
             <section data-block-id="features"
@@ -567,113 +641,48 @@
                     </div>
                 </div>
             </section>
-            <section data-block-id="features" class="shortcode-features shortcode-features-style-2">
-                <div class="container-fluid position-relative bg-primary-light section-padding">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-4 col-md-6 mb-lg-0 mb-8 position-relative z-2">
-                                <div
-                                    class="d-flex align-items-center bg-white border border-2 border-white d-inline-flex rounded-pill px-3 py-1">
-                                    <img src="images/dots.png" alt="dots"><span
-                                        class="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-primary">OUR
-                                        FEATURES</span>
-                                </div>
-                                <h2 class="text-white mt-3 mb-4 fw-medium hover-up">Scalable Business for
-                                    <span>Startups</span>
-                                </h2>
-                                <ul class="list-unstyled phase-items">
-                                    <li class="phase-item d-flex align-items-center mb-3"><svg
-                                            xmlns="http://www.w3.org/2000/svg" width="23" height="24"
-                                            viewBox="0 0 23 24" fill="none">
-                                            <path
-                                                d="M22.5 12C22.5 12.96 21.3206 13.7512 21.0844 14.6362C20.8406 15.5512 21.4575 16.8263 20.9944 17.6269C20.5238 18.4406 19.1081 18.5381 18.4481 19.1981C17.7881 19.8581 17.6906 21.2738 16.8769 21.7444C16.0763 22.2075 14.8012 21.5906 13.8862 21.8344C13.0012 22.0706 12.21 23.25 11.25 23.25C10.29 23.25 9.49875 22.0706 8.61375 21.8344C7.69875 21.5906 6.42375 22.2075 5.62313 21.7444C4.80938 21.2738 4.71187 19.8581 4.05188 19.1981C3.39188 18.5381 1.97625 18.4406 1.50563 17.6269C1.0425 16.8263 1.65938 15.5512 1.41563 14.6362C1.17938 13.7512 0 12.96 0 12C0 11.04 1.17938 10.2487 1.41563 9.36375C1.65938 8.44875 1.0425 7.17375 1.50563 6.37313C1.97625 5.55938 3.39188 5.46187 4.05188 4.80188C4.71187 4.14188 4.80938 2.72625 5.62313 2.25563C6.42375 1.7925 7.69875 2.40938 8.61375 2.16563C9.49875 1.92938 10.29 0.75 11.25 0.75C12.21 0.75 13.0012 1.92938 13.8862 2.16563C14.8012 2.40938 16.0763 1.7925 16.8769 2.25563C17.6906 2.72625 17.7881 4.14188 18.4481 4.80188C19.1081 5.46187 20.5238 5.55938 20.9944 6.37313C21.4575 7.17375 20.8406 8.44875 21.0844 9.36375C21.3206 10.2487 22.5 11.04 22.5 12Z"
-                                                fill="white"></path>
-                                            <path
-                                                d="M14.5013 8.64754L10.2188 12.93L7.99875 10.7119C7.51688 10.23 6.735 10.23 6.25313 10.7119C5.77125 11.1938 5.77125 11.9757 6.25313 12.4575L9.36751 15.5719C9.83626 16.0407 10.5975 16.0407 11.0663 15.5719L16.245 10.3932C16.7269 9.91129 16.7269 9.12941 16.245 8.64754C15.7631 8.16566 14.9831 8.16566 14.5013 8.64754Z"
-                                                fill="#A38CFF"></path>
-                                        </svg>
-                                        <p class="text-white mb-0 ms-3">Success Accelerators</p>
-                                    </li>
-                                    <li class="phase-item d-flex align-items-center mb-3"><svg
-                                            xmlns="http://www.w3.org/2000/svg" width="23" height="24"
-                                            viewBox="0 0 23 24" fill="none">
-                                            <path
-                                                d="M22.5 12C22.5 12.96 21.3206 13.7512 21.0844 14.6362C20.8406 15.5512 21.4575 16.8263 20.9944 17.6269C20.5238 18.4406 19.1081 18.5381 18.4481 19.1981C17.7881 19.8581 17.6906 21.2738 16.8769 21.7444C16.0763 22.2075 14.8012 21.5906 13.8862 21.8344C13.0012 22.0706 12.21 23.25 11.25 23.25C10.29 23.25 9.49875 22.0706 8.61375 21.8344C7.69875 21.5906 6.42375 22.2075 5.62313 21.7444C4.80938 21.2738 4.71187 19.8581 4.05188 19.1981C3.39188 18.5381 1.97625 18.4406 1.50563 17.6269C1.0425 16.8263 1.65938 15.5512 1.41563 14.6362C1.17938 13.7512 0 12.96 0 12C0 11.04 1.17938 10.2487 1.41563 9.36375C1.65938 8.44875 1.0425 7.17375 1.50563 6.37313C1.97625 5.55938 3.39188 5.46187 4.05188 4.80188C4.71187 4.14188 4.80938 2.72625 5.62313 2.25563C6.42375 1.7925 7.69875 2.40938 8.61375 2.16563C9.49875 1.92938 10.29 0.75 11.25 0.75C12.21 0.75 13.0012 1.92938 13.8862 2.16563C14.8012 2.40938 16.0763 1.7925 16.8769 2.25563C17.6906 2.72625 17.7881 4.14188 18.4481 4.80188C19.1081 5.46187 20.5238 5.55938 20.9944 6.37313C21.4575 7.17375 20.8406 8.44875 21.0844 9.36375C21.3206 10.2487 22.5 11.04 22.5 12Z"
-                                                fill="white"></path>
-                                            <path
-                                                d="M14.5013 8.64754L10.2188 12.93L7.99875 10.7119C7.51688 10.23 6.735 10.23 6.25313 10.7119C5.77125 11.1938 5.77125 11.9757 6.25313 12.4575L9.36751 15.5719C9.83626 16.0407 10.5975 16.0407 11.0663 15.5719L16.245 10.3932C16.7269 9.91129 16.7269 9.12941 16.245 8.64754C15.7631 8.16566 14.9831 8.16566 14.5013 8.64754Z"
-                                                fill="#A38CFF"></path>
-                                        </svg>
-                                        <p class="text-white mb-0 ms-3">Started politician Club</p>
-                                    </li>
-                                    <li class="phase-item d-flex align-items-center mb-3"><svg
-                                            xmlns="http://www.w3.org/2000/svg" width="23" height="24"
-                                            viewBox="0 0 23 24" fill="none">
-                                            <path
-                                                d="M22.5 12C22.5 12.96 21.3206 13.7512 21.0844 14.6362C20.8406 15.5512 21.4575 16.8263 20.9944 17.6269C20.5238 18.4406 19.1081 18.5381 18.4481 19.1981C17.7881 19.8581 17.6906 21.2738 16.8769 21.7444C16.0763 22.2075 14.8012 21.5906 13.8862 21.8344C13.0012 22.0706 12.21 23.25 11.25 23.25C10.29 23.25 9.49875 22.0706 8.61375 21.8344C7.69875 21.5906 6.42375 22.2075 5.62313 21.7444C4.80938 21.2738 4.71187 19.8581 4.05188 19.1981C3.39188 18.5381 1.97625 18.4406 1.50563 17.6269C1.0425 16.8263 1.65938 15.5512 1.41563 14.6362C1.17938 13.7512 0 12.96 0 12C0 11.04 1.17938 10.2487 1.41563 9.36375C1.65938 8.44875 1.0425 7.17375 1.50563 6.37313C1.97625 5.55938 3.39188 5.46187 4.05188 4.80188C4.71187 4.14188 4.80938 2.72625 5.62313 2.25563C6.42375 1.7925 7.69875 2.40938 8.61375 2.16563C9.49875 1.92938 10.29 0.75 11.25 0.75C12.21 0.75 13.0012 1.92938 13.8862 2.16563C14.8012 2.40938 16.0763 1.7925 16.8769 2.25563C17.6906 2.72625 17.7881 4.14188 18.4481 4.80188C19.1081 5.46187 20.5238 5.55938 20.9944 6.37313C21.4575 7.17375 20.8406 8.44875 21.0844 9.36375C21.3206 10.2487 22.5 11.04 22.5 12Z"
-                                                fill="white"></path>
-                                            <path
-                                                d="M14.5013 8.64754L10.2188 12.93L7.99875 10.7119C7.51688 10.23 6.735 10.23 6.25313 10.7119C5.77125 11.1938 5.77125 11.9757 6.25313 12.4575L9.36751 15.5719C9.83626 16.0407 10.5975 16.0407 11.0663 15.5719L16.245 10.3932C16.7269 9.91129 16.7269 9.12941 16.245 8.64754C15.7631 8.16566 14.9831 8.16566 14.5013 8.64754Z"
-                                                fill="#A38CFF"></path>
-                                        </svg>
-                                        <p class="text-white mb-0 ms-3">Business Intelligence</p>
-                                    </li>
-                                    <li class="phase-item d-flex align-items-center mb-3"><svg
-                                            xmlns="http://www.w3.org/2000/svg" width="23" height="24"
-                                            viewBox="0 0 23 24" fill="none">
-                                            <path
-                                                d="M22.5 12C22.5 12.96 21.3206 13.7512 21.0844 14.6362C20.8406 15.5512 21.4575 16.8263 20.9944 17.6269C20.5238 18.4406 19.1081 18.5381 18.4481 19.1981C17.7881 19.8581 17.6906 21.2738 16.8769 21.7444C16.0763 22.2075 14.8012 21.5906 13.8862 21.8344C13.0012 22.0706 12.21 23.25 11.25 23.25C10.29 23.25 9.49875 22.0706 8.61375 21.8344C7.69875 21.5906 6.42375 22.2075 5.62313 21.7444C4.80938 21.2738 4.71187 19.8581 4.05188 19.1981C3.39188 18.5381 1.97625 18.4406 1.50563 17.6269C1.0425 16.8263 1.65938 15.5512 1.41563 14.6362C1.17938 13.7512 0 12.96 0 12C0 11.04 1.17938 10.2487 1.41563 9.36375C1.65938 8.44875 1.0425 7.17375 1.50563 6.37313C1.97625 5.55938 3.39188 5.46187 4.05188 4.80188C4.71187 4.14188 4.80938 2.72625 5.62313 2.25563C6.42375 1.7925 7.69875 2.40938 8.61375 2.16563C9.49875 1.92938 10.29 0.75 11.25 0.75C12.21 0.75 13.0012 1.92938 13.8862 2.16563C14.8012 2.40938 16.0763 1.7925 16.8769 2.25563C17.6906 2.72625 17.7881 4.14188 18.4481 4.80188C19.1081 5.46187 20.5238 5.55938 20.9944 6.37313C21.4575 7.17375 20.8406 8.44875 21.0844 9.36375C21.3206 10.2487 22.5 11.04 22.5 12Z"
-                                                fill="white"></path>
-                                            <path
-                                                d="M14.5013 8.64754L10.2188 12.93L7.99875 10.7119C7.51688 10.23 6.735 10.23 6.25313 10.7119C5.77125 11.1938 5.77125 11.9757 6.25313 12.4575L9.36751 15.5719C9.83626 16.0407 10.5975 16.0407 11.0663 15.5719L16.245 10.3932C16.7269 9.91129 16.7269 9.12941 16.245 8.64754C15.7631 8.16566 14.9831 8.16566 14.5013 8.64754Z"
-                                                fill="#A38CFF"></path>
-                                        </svg>
-                                        <p class="text-white mb-0 ms-3">Data analytics</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4 col-md-6 mb-lg-0 mb-8">
-                                <div class="position-relative d-inline-block z-2 hover-up"><img
-                                        src="images/stock-market_4449895.png" data-bb-lazy="true"
-                                        class="rounded-3 border border-3 border-white" loading="lazy"
-                                        alt="Transform Your Business Into Profession">
-                                    <div
-                                        class="position-absolute bottom-0 start-0 end-0 mb-3 mx-3 backdrop-filter rounded-3 text-start p-3">
-                                        <a href="/contact"
-                                            class="d-flex align-items-center bg-white-keep d-inline-flex rounded-pill px-2 py-1"><img
-                                                src="images/dots.png" alt="dots"><span
-                                                class="fs-7 fw-medium text-primary mx-2">Free Update</span></a><strong
-                                            class="d-block fs-6 mt-3"> Transform Your Business <br> Into Profession
-                                        </strong>
-                                        <p class="fs-7 text-700">Achieve Your a of Business</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mb-lg-0 mb-8">
-                                <div class="px-lg-8">
-                                    <div data-aos="fade-zoom-in" data-aos-delay="100">
-                                        <div class="icon"><img src="images/icon-5.png" alt="icon"
-                                                class="icon-image page_speed_606217416"></div><strong
-                                            class="d-block fs-5 text-white my-3">Efficiency Experts</strong>
-                                        <p class="text-white border-bottom pb-3"> A business consultant provides expert
-                                            advice and guidance to businesses on various aspects. </p>
-                                    </div>
-                                    <div data-aos="fade-zoom-in" data-aos-delay="200"><strong
-                                            class="d-block fs-5 text-white my-3">Strategic Solutions</strong>
-                                        <p class="text-white"> Discover why hundreds of millions people use Infinia to
-                                            chat and call every day. </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <section class="relative bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white py-24 px-6 overflow-hidden">
+                <!-- Abstract Background Glow -->
+                <div class="absolute -top-10 left-1/2 w-[60vw] h-[60vw] bg-indigo-500 opacity-20 rounded-full blur-3xl transform -translate-x-1/2 z-0"></div>
+              
+                <div class="relative max-w-6xl mx-auto text-center z-10">
+                  <!-- Headline -->
+                  <h2 class="text-5xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6" data-aos="fade-up">
+                    <span class="text-indigo-400">Market Structure.</span> <br/>
+                    <span class="text-pink-400">Human Behavior.</span> <br/>
+                    <span class="text-yellow-300">Capital Flow.</span>
+                  </h2>
+                  
+                  <p class="text-xl md:text-2xl text-gray-300 mb-16 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                    <span class="text-white font-semibold">Every price has a reason.</span> We help you trace it.
+                  </p>
+              
+                  <!-- 3 Points -->
+                  <div class="grid md:grid-cols-3 gap-10 text-left z-10 relative">
+                    <div class="bg-[#1f2937] p-6 rounded-2xl border border-indigo-500/30 shadow-xl backdrop-blur-md" data-aos="fade-up" data-aos-delay="200">
+                      <h3 class="text-xl font-bold mb-2 text-indigo-300">Cycles repeat. But only the prepared notice.</h3>
+                      <p class="text-gray-400">We decode repetition with data, logic, and strategic context.</p>
                     </div>
-                    <div class="position-absolute bg-rotate z-0"><img src="images/img-favicon.png" data-bb-lazy="true"
-                            class="rotate-center" loading="lazy" alt="Image"></div>
-                    <div class="position-absolute top-0 end-0 z-1 p-8">
-                        <div class="bloom"></div>
+              
+                    <div class="bg-[#1f2937] p-6 rounded-2xl border border-pink-500/30 shadow-xl backdrop-blur-md" data-aos="fade-up" data-aos-delay="300">
+                      <h3 class="text-xl font-bold mb-2 text-pink-300">Investor actions follow psychological logic.</h3>
+                      <p class="text-gray-400">Master the fear, greed, and uncertainty that drive price action.</p>
                     </div>
+              
+                    <div class="bg-[#1f2937] p-6 rounded-2xl border border-yellow-400/30 shadow-xl backdrop-blur-md" data-aos="fade-up" data-aos-delay="400">
+                      <h3 class="text-xl font-bold mb-2 text-yellow-300">Volume is not just a number.</h3>
+                      <p class="text-gray-400">It’s a story. Discover the hidden messages in liquidity shifts.</p>
+                    </div>
+                  </div>
+              
+                  <!-- Quote Box -->
+                  <div class="mt-20 max-w-4xl mx-auto bg-[#1e293b] border-l-4 border-indigo-500 p-10 rounded-xl shadow-md" data-aos="zoom-in" data-aos-delay="500">
+                    <p class="text-2xl italic text-gray-100 font-medium mb-2">“Markets move. But not without reason.”</p>
+                    <p class="text-lg text-gray-300">Learn the <span class="text-white font-semibold">why</span> behind every move — not just the <span class="text-white font-semibold">what</span>.</p>
+                  </div>
                 </div>
-            </section>
+              </section>
+              
             <section data-block-id="features" class="shortcode-features shortcode-features-style-3">
                 <div class="container-fluid position-relative bg-neutral-100 section-padding ">
                     <div class="container">
@@ -695,7 +704,8 @@
                             <div class="col-lg-6">
                                 <div class="ps-lg-5"><strong class="d-block fs-6" data-aos="fade-zoom-in"
                                         data-aos-delay="50">Company's vision</strong>
-                                    <h3 class="ds-3 mt-2 mb-5" data-aos="fade-zoom-in" data-aos-delay="100">Unlock Your Full Potential with SOSM.</h3>
+                                    <h3 class="ds-3 mt-2 mb-5" data-aos="fade-zoom-in" data-aos-delay="100">Unlock Your Full Potential with School Of
+                                        Stock Market.</h3>
                                     <p class="mb-5" data-aos="fade-zoom-in" data-aos-delay="100"> Unlock your team's full potential with our cutting-edge group mentoring initiatives and unparalleled professional perks. </p>
                                     <div class="d-flex align-items-center pb-7 border-bottom"><a href="contact.html"
                                             class="btn btn-gradient" data-aos="fade-zoom-in" data-aos-delay="0"> Contact Us <svg class="icon ms-2 svg-icon-ti-ti-arrow-up-right"
@@ -799,10 +809,8 @@
                             <div class="rounded-4 shadow-1 bg-white position-relative z-1 hover-up p-2 mt-5"
                                 data-aos="fade-zoom-in" data-aos-delay="50">
                                 <div class="card-service bg-white p-6 border rounded-4"><img src="images/icon-8.png"
-                                        alt="icon" class="service-icon"><strong class="d-block fs-6 my-3">Business
-                                        Consultancy</strong>
-                                    <p class="mb-6">We provide expert consultancy services to help your business
-                                        overcome challenges and achieve sustainable growth.</p><a
+                                        alt="icon" class="service-icon"><strong class="d-block fs-6 my-3">Mutual Funds</strong>
+                                    <p class="mb-6">We provide expert guidance to help you choose the right mutual funds tailored to your financial goals — ensuring diversification, professional management, and long-term wealth creation</p><a
                                         href="h"
                                         title="Business Consultancy"
                                         class="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more"><svg
@@ -829,10 +837,9 @@
                             <div class="rounded-4 shadow-1 bg-white position-relative z-1 hover-up p-2 mt-5"
                                 data-aos="fade-zoom-in" data-aos-delay="50">
                                 <div class="card-service bg-white p-6 border rounded-4"><img src="images/icon-9.png"
-                                        alt="icon" class="service-icon"><strong class="d-block fs-6 my-3">Business
-                                        Promotion</strong>
-                                    <p class="mb-6">Boost your brand's visibility and connect with a wider audience
-                                        through innovative, cutting-edge promotion strategies.</p><a
+                                        alt="icon" class="service-icon"><strong class="d-block fs-6 my-3">Bonds & Debt Instruments
+                                        </strong>
+                                    <p class="mb-6">Secure your investments with stable returns through bonds, NCDs, and other fixed-income products. Ideal for conservative investors seeking predictable income and lower risk in today’s volatile markets.</p><a
                                         href="https://infinia.botble.com/services/business-promotion"
                                         title="Business Promotion"
                                         class="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more"><svg
@@ -891,10 +898,9 @@
                             <div class="rounded-4 shadow-1 bg-white position-relative z-1 hover-up p-2 mt-5"
                                 data-aos="fade-zoom-in" data-aos-delay="50">
                                 <div class="card-service bg-white p-6 border rounded-4"><img src="images/icon-11.png"
-                                        alt="icon" class="service-icon"><strong class="d-block fs-6 my-3">Revenue
-                                        Generation</strong>
-                                    <p class="mb-6">Discover new revenue streams and maximize profitability using our
-                                        proven and innovative business models.</p><a
+                                        alt="icon" class="service-icon"><strong class="d-block fs-6 my-3">Investment Research
+                                        </strong>
+                                    <p class="mb-6">Make smarter financial decisions with our SEBI-compliant investment research. We deliver in-depth equity analysis, market trends, and sector insights — all backed by data, integrity, and expert judgment..</p><a
                                         href="https://infinia.botble.com/services/revenue-generation"
                                         title="Revenue Generation"
                                         class="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more"><svg
@@ -943,9 +949,9 @@
                         <div class="text-center">
                             <div class="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2"
                                 data-aos="zoom-in" data-aos-delay="50"><img src="images/dots.png" alt="dots"><span
-                                    class="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-primary">WHY CHOOSE SOSM</span></div>
-                            <h3 class="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay="100">Why Choose School of Stock Market?</h3>
-                            <p class="fs-5" data-aos="fade-zoom-in" data-aos-delay="100"> At School of Stock Market (SOSM), we don't just teach the market — we help you understand it, apply it, and grow with it. </p>
+                                    class="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-primary">WHY CHOOSE School Of Stock Market</span></div>
+                            <h3 class="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay="100">Why Choose School Of Stock Market?</h3>
+                            <p class="fs-5" data-aos="fade-zoom-in" data-aos-delay="100"> At School Of Stock Market, we don't just teach the market — we help you understand it, apply it, and grow with it. </p>
                         </div>
                     </div>
                     <div class="row mt-6">
@@ -1029,173 +1035,6 @@
                 <div class="rotate-center ellipse-rotate-success position-absolute z-0"></div>
                 <div class="rotate-center-rev ellipse-rotate-primary position-absolute z-0"></div>
             </section>
-            <section data-block-id="pricing-plans"
-                class="shortcode-pricing-plans shortcode-pricing-plans-style-1 section-pricing-1 position-relative pb-120 @classList overflow-hidden">
-                <div class="container">
-                    <div class="row pb-9 position-relative z-1">
-                        <div class="col-lg-auto me-lg-auto">
-                            <div class="text-start mb-lg-0 mb-5">
-                                <div class="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2"
-                                    data-aos="zoom-in" data-aos-delay="50"><img src="images/dots.png" alt="dots"><span
-                                        class="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-primary">SUBSCRIPTION PLANS</span></div>
-                                <h3 class="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay="100">SOSM Subscription Plans – 2025</h3>
-                                <p class="fs-5 mb-0" data-aos="fade-zoom-in" data-aos-delay="100"> ⚡Choose the perfect plan for your financial learning journey </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row backdrop-filter-lg rounded-4 position-relative z-1">
-                        <div class="col-lg-3 col-sm-6 px-lg-0 mb-lg-0 mb-4">
-                            <div
-                                class="pricing-plan-item backdrop-filter-md h-100 p-6 position-relative border rounded-4 z-1 rounded-end-lg-0">
-                                <strong class="d-block fs-6">Free Plan</strong>
-                                <p class="fs-7">Beginners, Students, Public</p>
-                                <div class="d-flex">
-                                    <h4 class="text-primary mb-0">₹0</h4><span class="fs-5 text-600 ms-1 fw-bold align-self-end">/month</span>
-                                </div><a href="/contact"
-                                    class="btn w-100 d-flex justify-content-between my-5 btn-outline-secondary hover-up">
-                                    Get Started <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none">
-                                        <path class="fill-dark"
-                                            d="M17.4177 5.41797L16.3487 6.48705L21.1059 11.2443H0V12.7562H21.1059L16.3487 17.5134L17.4177 18.5825L24 12.0002L17.4177 5.41797Z"
-                                            fill="#111827"></path>
-                                    </svg></a>
-                                <ul class="list-unstyled mb-0">
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Daily Market News (Text/Video)</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">2 Educational Videos/Week</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Access to Community Forum</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Limited Research Snippets</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Weekly Market Summary</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Mutual Fund Basics</strong></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 px-lg-0 mb-lg-0 mb-4">
-                            <div
-                                class="pricing-plan-item backdrop-filter-md h-100 p-6 position-relative border rounded-4 z-1 rounded-end-lg-0 border-start-lg-0 rounded-start-lg-0">
-                                <strong class="d-block fs-6">Starter Plan</strong>
-                                <p class="fs-7">Retail Traders/Investors (early stage)</p>
-                                <div class="d-flex">
-                                    <h4 class="text-primary mb-0">₹354</h4><span
-                                        class="fs-5 text-600 ms-1 fw-bold align-self-end">/month</span>
-                                </div><a href="/contact"
-                                    class="btn w-100 d-flex justify-content-between my-5 btn-gradient"> Get Started <svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none">
-                                        <path class="fill-white"
-                                            d="M17.4177 5.41797L16.3487 6.48705L21.1059 11.2443H0V12.7562H21.1059L16.3487 17.5134L17.4177 18.5825L24 12.0002L17.4177 5.41797Z"
-                                            fill="#111827"></path>
-                                    </svg></a>
-                                <ul class="list-unstyled mb-0">
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">All Free Plan features</strong>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">3 Stock Recommendations/Month</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Beginner Technical & Fundamental Analysis</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Weekly Market Reports (PDF/Video)</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Portfolio Tracker Access</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">SOSM Mobile App (Basic Access)</strong></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 px-lg-0 mb-lg-0 mb-4">
-                            <div
-                                class="pricing-plan-item backdrop-filter-md h-100 p-6 position-relative border rounded-4 z-1 rounded-end-lg-0 border-start-lg-0 rounded-start-lg-0">
-                                <strong class="d-block fs-6">Pro Trader Plan</strong>
-                                <p class="fs-7">Active Traders & Serious Learners</p>
-                                <div class="d-flex">
-                                    <h4 class="text-primary mb-0">₹826</h4><span
-                                        class="fs-5 text-600 ms-1 fw-bold align-self-end">/month</span>
-                                </div><a href="/contact"
-                                    class="btn w-100 d-flex justify-content-between my-5 btn-outline-secondary hover-up">
-                                    Get Started <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none">
-                                        <path class="fill-dark"
-                                            d="M17.4177 5.41797L16.3487 6.48705L21.1059 11.2443H0V12.7562H21.1059L16.3487 17.5134L17.4177 18.5825L24 12.0002L17.4177 5.41797Z"
-                                            fill="#111827"></path>
-                                    </svg></a>
-                                <ul class="list-unstyled mb-0">
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">All Starter Plan features</strong>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Daily Equity/F&O Calls (3–5 per day)</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Technical Screener Access</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Advanced Technical Analysis Course</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Weekly Strategy Webinar</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">CFA Tips + Financial Planning Tools</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Research Report Archives (Last 3 months)</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Early Access to NFO/IPO Reports</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">F&O Risk Management Sheet + Alerts</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">WhatsApp & Telegram Broadcast Channel</strong></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 px-lg-0 mb-lg-0 mb-4">
-                            <div
-                                class="pricing-plan-item backdrop-filter-md h-100 p-6 position-relative border rounded-4 z-1 border-start-lg-0 rounded-start-lg-0">
-                                <strong class="d-block fs-6">Elite Investor Plan</strong>
-                                <p class="fs-7">High Net-worth Traders/Investors, Full-time Market Participants</p>
-                                <div class="d-flex">
-                                    <h4 class="text-primary mb-0">₹1,770</h4><span
-                                        class="fs-5 text-600 ms-1 fw-bold align-self-end">/month</span>
-                                </div><a href="/contact"
-                                    class="btn w-100 d-flex justify-content-between my-5 btn-outline-secondary hover-up">
-                                    Get Started <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none">
-                                        <path class="fill-dark"
-                                            d="M17.4177 5.41797L16.3487 6.48705L21.1059 11.2443H0V12.7562H21.1059L16.3487 17.5134L17.4177 18.5825L24 12.0002L17.4177 5.41797Z"
-                                            fill="#111827"></path>
-                                    </svg></a>
-                                <ul class="list-unstyled mb-0">
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">All Pro Plan features</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Custom Stock Portfolio Allocation</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Direct Email/Chat Query Resolution</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Equity + Derivative + Crypto Research</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Monthly 1:1 Strategy Consultation (30 mins)</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Access to CFA-Level Financial Model Templates</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">IPO/NFO Deep Dive Reports</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Multi-Asset Dashboard (Equity, Bonds, Crypto, Global)</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Tax Optimization & Capital Gain Planning</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Market Psychology & Behavioral Training Tools</strong></li>
-                                    <li class="d-flex align-items-center mb-4"><img src="images/check-primary.png"
-                                            alt="check"><strong class="d-block fs-6 mb-0 ms-2">Backtested Algo Strategies Library</strong></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="rotate-center ellipse-rotate-success position-absolute z-0"></div>
-                <div class="rotate-center-rev ellipse-rotate-primary position-absolute z-0"></div>
-            </section>
             <section data-block-id="testimonials"
                 class="shortcode-testimonials shortcode-testimonials-style-1 section-testimonial-1 pb-120 position-relative">
                 <div class="container position-relative z-1">
@@ -1234,25 +1073,25 @@
                         <div class="col-lg-4">
                             <div class="bg-neutral-100 p-5 rounded-3 position-relative mt-8" data-aos="fade-zoom-in"
                                 data-aos-delay="100">
-                                <p class="text-900"> SOSM has been instrumental in our company's growth. Their cutting-edge solutions and exceptional support have significantly enhanced our productivity and client satisfaction. </p>
-                                <div class="d-flex align-items-center mt-5"><img src="images/avatar-13.png"
+                                <p class="text-900"> Before School of Stock Market, I relied on random online advice. Now, I make my own informed investment decisions. I’ve gained the confidence to build a long-term portfolio based on logic, not emotion.
+                                </p>
+                                <div class="d-flex align-items-center mt-5"><img src="images/Untitled design (12).png"
                                         data-bb-lazy="true" class="avatar-lg rounded-circle" width="64" loading="lazy"
                                         alt="James Dopli">
-                                    <div class="d-flex flex-column"><strong class="d-block fs-6 ms-3 fs-6 mb-0">James
-                                            Dopli</strong>
-                                        <div class="flag ms-3"><span class="fs-8">CEO of Tech Innovators Inc</span>
+                                    <div class="d-flex flex-column"><strong class="d-block fs-6 ms-3 fs-6 mb-0">Swaroop Desai</strong>
+                                        <div class="flag ms-3"><span class="fs-8">Student</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="bg-neutral-100 p-5 rounded-3 position-relative mt-5" data-aos="fade-zoom-in"
                                 data-aos-delay="200">
-                                <p class="text-900"> SOSM's comprehensive suite of over 1200 UI blocks has enabled us to craft highly functional and aesthetically pleasing user interfaces that resonate with our target audience. </p>
-                                <div class="d-flex align-items-center mt-5"><img src="images/avatar-7.png"
+                                <p class="text-900">I used to depend only on traditional savings. After learning through School of Stock Market, I understood how to diversify carefully and manage risk. I now feel more financially aware and prepared, even post-retirement.
+                                </p>
+                                <div class="d-flex align-items-center mt-5"><img src="images/Untitled design (13).png"
                                         data-bb-lazy="true" class="avatar-lg rounded-circle" width="64" loading="lazy"
                                         alt="Theodore Handle">
-                                    <div class="d-flex flex-column"><strong class="d-block fs-6 ms-3 fs-6 mb-0">Theodore
-                                            Handle</strong>
+                                    <div class="d-flex flex-column"><strong class="d-block fs-6 ms-3 fs-6 mb-0">Sakshi Kulkarni</strong>
                                         <div class="flag ms-3"><span class="fs-8">Software Engineer</span></div>
                                     </div>
                                 </div>
@@ -1261,24 +1100,25 @@
                         <div class="col-lg-4">
                             <div class="bg-neutral-100 p-5 rounded-3 position-relative mt-5" data-aos="fade-zoom-in"
                                 data-aos-delay="100">
-                                <p class="text-900"> SOSM's premium support team's responsiveness and expertise have ensured minimal disruptions and quick resolutions to any technical challenges we've faced. </p>
-                                <div class="d-flex align-items-center mt-5"><img src="images/avatar-6.png"
+                                <p class="text-900"> I was stuck in daily trading, not knowing what I was doing. This platform helped me shift toward long-term investing with proper research and patience. It’s a complete mindset change, not just market tips.”
+                                    MBA Student
+                                     </p>
+                                <div class="d-flex align-items-center mt-5"><img src="images/Untitled design (14).png"
                                         data-bb-lazy="true" class="avatar-lg rounded-circle" width="64" loading="lazy"
                                         alt="Shahnewaz Sakil">
                                     <div class="d-flex flex-column"><strong
-                                            class="d-block fs-6 ms-3 fs-6 mb-0">Shahnewaz Sakil</strong>
+                                            class="d-block fs-6 ms-3 fs-6 mb-0">Akshaya Patil</strong>
                                         <div class="flag ms-3"><span class="fs-8">Marketing Director</span></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="bg-neutral-100 p-5 rounded-3 position-relative mt-5" data-aos="fade-zoom-in"
                                 data-aos-delay="200">
-                                <p class="text-900"> SOSM's comprehensive suite of over 1200 UI blocks has enabled us to craft highly functional and aesthetically pleasing user interfaces that resonate with our target audience. </p>
-                                <div class="d-flex align-items-center mt-5"><img src="images/avatar-20.png"
+                                <p class="text-900"> I always thought investing was too complex. But School of Stock Market explained everything in a simple, relatable way. Now, I feel confident managing my own money and making informed choices for my future.</p>
+                                <div class="d-flex align-items-center mt-5"><img src="images/Untitled design (15).png"
                                         data-bb-lazy="true" class="avatar-lg rounded-circle" width="64" loading="lazy"
                                         alt="Albert Flores">
-                                    <div class="d-flex flex-column"><strong class="d-block fs-6 ms-3 fs-6 mb-0">Albert
-                                            Flores</strong>
+                                    <div class="d-flex flex-column"><strong class="d-block fs-6 ms-3 fs-6 mb-0">Rajesh Kumar</strong>
                                         <div class="flag ms-3"><span class="fs-8">Software Engineer</span></div>
                                     </div>
                                 </div>
@@ -1327,8 +1167,7 @@
                             data-aos="zoom-in" data-aos-delay="50"><img src="images/dots.png" alt="dots"><span
                                 class="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-primary">Stay updated</span>
                         </div>
-                        <h4 class="mt-3 mb-3">Subscribe to our Newsletter!</h4><span class="fs-6 fw-medium">Join 52,000+
-                            people on our newsletter</span>
+                        <h4 class="mt-3 mb-3">Stay informed with important market alerts, research updates, and educational insights from School of Stock Market.</h4>
                         <form method="POST" action="https://infinia.botble.com/newsletter/subscribe"
                             accept-charset="UTF-8" id="botble-newsletter-forms-fronts-newsletter-form"
                             class="subscribe-form newsletter-form dirty-check"><input name="_token" type="hidden"
@@ -1368,7 +1207,7 @@
                 <img src="images/dots.png" alt="dots">
                 <span class="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-primary">OUR COURSES</span>
               </div>
-              <h2 class="fw-medium mt-3 mb-4">At School of Stock Market (SOSM), we offer structured, easy-to-understand, and industry-relevant courses designed for every stage of your financial journey — from beginner to advanced.</h2>
+              <h2 class="fw-medium mt-3 mb-4">At School Of Stock Market, we offer structured, easy-to-understand, and industry-relevant courses designed for every stage of your financial journey — from beginner to advanced.</h2>
             </div>
           </div>
           <div class="row g-4">
@@ -1454,11 +1293,11 @@
           <div class="row mt-7">
             <div class="col-12 col-lg-10 mx-auto">
               <div class="bg-primary-soft rounded-4 p-5 text-center">
-                <h3 class="fw-bold mb-3">Why Learn with SOSM?</h3>
+                <h3 class="fw-bold mb-3">Why Learn with School Of Stock Market?</h3>
                 <ul class="list-unstyled fs-5 mb-0">
-                  <li>• Regional-first content (Marathi / Hindi / English)</li>
-                  <li>• SEBI-RA backed team & CFA guidance</li>
-                  <li>• Live data access + real-time use-cases</li>
+                  <li>• Content available in regional languages</li>
+                  <li>• Guided by SEBI-Registered Research Analysts and Investment Advisors</li>
+                  <li>• Live data access + real-time use-cases </li>
                   <li>• Affordable pricing & easy access via mobile/desktop</li>
                   <li>• Community access for Q&A, doubt clearing, and peer learning</li>
                 </ul>
@@ -1485,12 +1324,12 @@
                         <div class="accordion-item border-0 mb-3">
                             <h2 class="accordion-header" id="faq1">
                                 <button class="accordion-button bg-white shadow-sm rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                    <strong>What is SOSM Services Pvt. Ltd.?</strong>
+                                    <strong>What is School Of Stock Market?</strong>
                                 </button>
                             </h2>
                             <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    SOSM is a technology-driven platform designed to support SEBI-registered Research Analysts (RAs), Investment Advisers (IAs), educational professionals, and other financial service providers. We offer digital infrastructure, data tools, and educational content to help them operate efficiently — without offering investment advice ourselves.
+                                    School Of Stock Market is a technology-driven platform designed to support SEBI-registered Research Analysts (RAs), Investment Advisers (IAs), educational professionals, and other financial service providers. We offer digital infrastructure, data tools, and educational content to help them operate efficiently — without offering investment advice ourselves.
                                 </div>
                             </div>
                         </div>
@@ -1503,7 +1342,7 @@
                             </h2>
                             <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    No. SOSM does not provide investment advice or fund management. We build and operate the technology backbone that empowers financial educators and licensed professionals to distribute their content, research, and tools legally and efficiently.
+                                    No. School Of Stock Market does not provide investment advice or fund management. We build and operate the technology backbone that empowers financial educators and licensed professionals to distribute their content, research, and tools legally and efficiently.
                                 </div>
                             </div>
                         </div>
@@ -1511,7 +1350,7 @@
                         <div class="accordion-item border-0 mb-3">
                             <h2 class="accordion-header" id="faq3">
                                 <button class="accordion-button collapsed bg-white shadow-sm rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                    <strong>What services does SOSM provide?</strong>
+                                    <strong>What services does School Of Stock Market provide?</strong>
                                 </button>
                             </h2>
                             <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
@@ -1532,12 +1371,12 @@
                         <div class="accordion-item border-0 mb-3">
                             <h2 class="accordion-header" id="faq4">
                                 <button class="accordion-button collapsed bg-white shadow-sm rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                    <strong>Is SOSM a SEBI-registered entity?</strong>
+                                    <strong>Is School Of Stock Market a SEBI-registered entity?</strong>
                                 </button>
                             </h2>
                             <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    SOSM itself is not registered as an RA or IA with SEBI, as it does not provide regulated advisory services. However, we collaborate with SEBI-registered individuals/entities by offering a compliant digital platform that supports their work.
+                                    School Of Stock Market itself is not registered as an RA or IA with SEBI, as it does not provide regulated advisory services. However, we collaborate with SEBI-registered individuals/entities by offering a compliant digital platform that supports their work.
                                 </div>
                             </div>
                         </div>
@@ -1609,7 +1448,7 @@
                         <div class="accordion-item border-0 mb-3">
                             <h2 class="accordion-header" id="faq9">
                                 <button class="accordion-button collapsed bg-white shadow-sm rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-                                    <strong>Who creates the content on SOSM?</strong>
+                                    <strong>Who creates the content on School Of Stock Market?</strong>
                                 </button>
                             </h2>
                             <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="faq9" data-bs-parent="#faqAccordion">
@@ -1627,7 +1466,7 @@
                         <div class="accordion-item border-0 mb-3">
                             <h2 class="accordion-header" id="faq10">
                                 <button class="accordion-button collapsed bg-white shadow-sm rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
-                                    <strong>Does SOSM sell or recommend stocks or mutual funds?</strong>
+                                    <strong>Does School Of Stock Market sell or recommend stocks or mutual funds?</strong>
                                 </button>
                             </h2>
                             <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="faq10" data-bs-parent="#faqAccordion">
@@ -1653,9 +1492,7 @@
                                         class="logo-dark page_speed_1832777681"><img src="images/kj-removebg-preview.png"
                                         data-bb-lazy="false" alt="Multipurpose Business & Startup Theme"
                                         class="logo-white page_speed_1832777681"></a>
-                                <p class="text-white fw-medium mt-3 mb-6 opacity-50">You may also realize cost savings
-                                    from your energy efficient choices in your custom home. Federal tax credits for some
-                                    green materials can allow you to deduct as much.</p>
+                                <p class="text-white fw-medium mt-3 mb-6 opacity-50">SOSM Services Pvt. Ltd. offers a technology-enabled platform supporting professionals through tools, education, and insights.</p>
                                 <div class="d-flex social-icons"><a href="https://www.facebook.com" title="Facebook"
                                         target="_blank"
                                         class="text-white border border-light border-opacity-10 icon-shape icon-md border-end-0"><svg
@@ -1744,22 +1581,16 @@
                             <div class=" rounded-3 p-4 border border-light border-opacity-25">
                                 <h6 class="text-white mb-3 fw-bold">Disclaimer</h6>
                                 <p class="text-white opacity-90 fs-7 mb-0" style="line-height: 1.6;">
-                                    The content provided on this website is strictly for educational and informational purposes only. School of Stock Market (SOSM) does not offer any investment, legal, or tax advice through this platform.<br><br>
-                                    
-                                    While certain research reports, market views, and strategy insights may be shared by qualified professionals, including SEBI-registered Research Analysts, users must understand that none of the content should be construed as a direct recommendation to buy, sell, or hold any financial instrument.<br><br>
-                                    
-                                    All investments involve risk, including potential loss of capital. Past performance is not indicative of future results. Users are advised to consult with a SEBI-registered Investment Advisor or relevant professional before making any investment decisions.<br><br>
-                                    
-                                    SOSM, its team, and associated partners are not liable for any losses or damages arising from the use of this platform, whether direct or indirect. The platform does not guarantee the accuracy, timeliness, or completeness of any information provided, especially as market data and conditions are subject to change.<br><br>
-                                    
-                                    We also do not engage in portfolio management or financial product distribution. Any platform-based access to third-party professionals or tools is provided for the user's convenience and learning.<br><br>
-                                    
-                                    By accessing or using this website, you agree to this disclaimer and our Terms of Use and Privacy Policy.
+                                    Disclaimer
+
+The content provided on this website is strictly for educational and informational purposes only. School of Stock Market does not offer any personalized investment, legal, or tax advice through this platform.
+While certain research reports, market views, and strategy insights may be shared by qualified professionals, including SEBI-registered Research Analysts, users must understand that none of the content should be construed as a direct recommendation to buy, sell, or hold any financial instrument.
+All investments involve risk, including the potential loss of capital. Past performance is not indicative of future results. Users are strongly advised to consult with a SEBI-registered Investment Advisor and/or a qualified Mutual Fund Consultant before making any financial decisions.
+SOSM, its team, and associated partners are not liable for any losses or damages arising from the use of this platform, whether direct or indirect. The platform does not guarantee the accuracy, timeliness, or completeness of any information provided, especially as market data and conditions are subject to change.
+We also do not engage in portfolio management, investment advisory, or financial product distribution. Any platform-based access to third-party professionals, tools, or information is provided solely for the user's learning and convenience.
+By accessing or using this website, you agree to this disclaimer along with our Terms of Use and Privacy Policy.
                                 </p>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <span class="text-white opacity-50"> Copyright © 2025 Infinia. All Rights Reserved </span>
                         </div>
                     </div>
                 </div>
@@ -1769,8 +1600,238 @@
             <div class="position-absolute top-0 start-0 z-0"><img src="images/ellipse-left.png" alt="left"></div>
             <div class="position-absolute top-0 end-0 z-0"><img src="images/ellipse-right.png" alt="right"></div>
         </div>
+        <div class="container">
+            <div class="footer-top">
+                <!-- First Row: 4 columns -->
+                <div class="row">
+                    <!-- Indices Section -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-section">
+                            <h3><i class="fas fa-chart-bar"></i> Indices</h3>
+                            <ul class="footer-links">
+                                <li><a href="niftyfinancial.html">NIFTY Financial Services 25/50</a></li>
+                                <li><a href="niftyhealth.html">Nifty Healthcare</a></li>
+                                <li><a href="niftymedia.html">NIFTY MEDIA</a></li>
+                                <li><a href="niftyprivate.html">NIFTY Private Banks</a></li>
+                                <li><a href="niftyfinnifity.html">FINNIFTY</a></li>
+                                <button class="toggle-btn">Show More +</button>
+                                <div class="toggle-content">
+                                    <li><a href="NiftyFMCG.html">Nifty FMCG</a></li>
+                                    <li><a href="NIFTYOil.html">NIFTY Oil and Gas</a></li>
+                                    <li><a href="niftymetal.html">Nifty Metal Index and the Metal Industry</a></li>
+                                    <li><a href="NIFTYRealty.html">NIFTY Realty Sector</a></li>
+                                    <li><a href="Niftypsu.html">NIFTY PSU Bank Sector</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Algo Trading Section -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-section">
+                            <h3><i class="fas fa-robot"></i> Algo Trading Guide</h3>
+                            <ul class="footer-links">
+                                <li><a href="algotrading.html">Algorithmic Trading: The Fastest Way to Trade</a></li>
+                                <li><a href="algotradingvs.html">Algo Trading: Revolutionizing Trading</a></li>
+                                <li><a href="algotradingvrtraditionaltrading.html">Algo Trading vs Traditional Trading</a></li>
+                                <li><a href="algorithmictarding.html">Algorithmic Trading Strategies</a></li>
+                                <button class="toggle-btn">Show More +</button>
+                                <div class="toggle-content">
+                                    <li><a href="masteringalgotrading.html">Mastering Algo Trading</a></li>
+                                    <li><a href="algowealthprotect.html">Algo Trading for Wealth Protection</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Calculators Section -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-section">
+                            <h3><i class="fas fa-calculator"></i> All Calculators</h3>
+                            <ul class="footer-links">
+                                <li><a href="#">Brokerage Calculator</a></li>
+                                <li><a href="#">GST Calculator</a></li>
+                                <li><a href="#">PPF Calculator</a></li>
+                                <li><a href="#">Gratuity Calculator</a></li>
+                                <button class="toggle-btn">Show More +</button>
+                                <div class="toggle-content">
+                                    <li><a href="#">HRA Calculator</a></li>
+                                    <li><a href="#">CAGR Calculator</a></li>
+                                    <li><a href="#">Compound Interest Calculator</a></li>
+                                    <li><a href="#">ELSS Calculator</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Option Trading Section -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-section">
+                            <h3><i class="fas fa-options"></i> Option Trading</h3>
+                            <div class="sub-section">
+                                <h4><i class="fas fa-book"></i> Option Trading Guide</h4>
+                                <ul class="footer-links">
+                                    <li><a href="ultimateguide.html">The Ultimate Guide to Option Trading</a></li>
+                                    <li><a href="10thing.html">10 Things to Know Before Trading Options</a></li>
+                                    <li><a href="OptionsTradinginIndia.html">Introduction to Options Trading in India</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="sub-section">
+                                <h4><i class="fas fa-chess"></i> Option Strategies</h4>
+                                <ul class="footer-links">
+                                    <li><a href="coverdcall.html">Covered Call</a></li>
+                                    <li><a href="protectiveput.html">Protective Put</a></li>
+                                    <li><a href="longstrangle.html">Long Strangle</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Second Row: 4 columns -->
+                <div class="row">
+                    <!-- Taxation Section -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-section">
+                            <h3><i class="fas fa-file-invoice-dollar"></i> Taxation for Traders</h3>
+                            <ul class="footer-links">
+                                <li><a href="taxationfortraders.html">Taxation for Traders and Investors</a></li>
+                                <li><a href="taxationstrategies.html">Tax Planning Strategies</a></li>
+                                <li><a href="TaxImplications.html">Tax Implications on Demat Account</a></li>
+                                <li><a href="IncomeTax.html">Income Tax on Intraday Trading</a></li>
+                                <button class="toggle-btn">Show More +</button>
+                                <div class="toggle-content">
+                                    <li><a href="directtax.html">Direct vs Indirect Tax</a></li>
+                                    <li><a href="capitalgain.html">Capital Gains Tax</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                
+                    
+                    <!-- Right Issue Section -->
+                    
+                    <!-- Knowledge Centre Section -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-section">
+                            <h3><i class="fas fa-graduation-cap"></i> Knowledge Centre</h3>
+                            <div class="sub-section">
+                                <h4><i class="fas fa-exchange-alt"></i> Trading</h4>
+                                <ul class="footer-links">
+                                    <li><a href="TypesofTrading.html">Types of Trading</a></li>
+                                    <li><a href="ArbitrageTrading.html">Arbitrage Trading</a></li>
+                                    <li><a href="DeliveryTrading.html">Delivery Trading</a></li>
+                                    <button class="toggle-btn">Show More +</button>
+                                    <div class="toggle-content">
+                                        <li><a href="intradaytrading.html">Intraday Trading</a></li>
+                                        <li><a href="#">Intraday Trading Guide</a></li>
+                                    </div>
+                                </ul>
+                            </div>
+                            
+                            <div class="sub-section">
+                                <h4><i class="fas fa-laptop"></i> Online Trading</h4>
+                                <ul class="footer-links">
+                                    <li><a href="Onlinetrading.html">Online Trading Guide</a></li>
+                                    <li><a href="OpenTrading.html">Open Trading Account</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Third Row: 3 columns -->
+                <div class="row">
+                    <!-- Quick Links Section -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-section">
+                            <h3><i class="fas fa-link"></i> Quick Links</h3>
+                            <div class="quick-links-grid">
+                                <div class="quick-link-item">
+                                    <h4><i class="fas fa-chart-line"></i> Market Insights</h4>
+                                    <ul>
+                                        <li><a href="NSEtop.html">NSE Top Gainers & Losers</a></li>
+                                        <li><a href="Ratioanalysis.html">Ratio Analysis</a></li>
+                                        <li><a href="PERatio.html">PE Ratio Guide</a></li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="quick-link-item">
+                                    <h4><i class="fas fa-book"></i> Resources</h4>
+                                    <ul>
+                                        <li><a href="InvestingandTrading.html">Investing vs Trading</a></li>
+                                        <li><a href="SharesandDebentures.html">Shares vs Debentures</a></li>
+                                        <li><a href="EquityvsCommodity.html">Equity vs Commodity</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Top 100 Stocks Section -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-section">
+                            <h3><i class="fas fa-star"></i> Top 100 Stocks</h3>
+                            <div class="stock-grid">
+                                <div class="stock-item">
+                                    <a href="#"><i class="fas fa-industry"></i> Reliance Industries</a>
+                                </div>
+                                <div class="stock-item">
+                                    <a href="#"><i class="fas fa-laptop-code"></i> TCS</a>
+                                </div>
+                                <div class="stock-item">
+                                    <a href="#"><i class="fas fa-university"></i> HDFC Bank</a>
+                                </div>
+                                <div class="stock-item">
+                                    <a href="#"><i class="fas fa-code"></i> Infosys</a>
+                                </div>
+                                <div class="stock-item">
+                                    <a href="#"><i class="fas fa-piggy-bank"></i> ICICI Bank</a>
+                                </div>
+                                <div class="stock-item">
+                                    <a href="#"><i class="fas fa-shopping-cart"></i> Hindustan Unilever</a>
+                                </div>
+                                <button class="toggle-btn" style="grid-column: 1 / -1;">Show More Stocks +</button>
+                                <div class="toggle-content" style="grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">
+                                    <div class="stock-item">
+                                        <a href="#"><i class="fas fa-landmark"></i> SBI</a>
+                                    </div>
+                                    <div class="stock-item">
+                                        <a href="#"><i class="fas fa-signal"></i> Airtel</a>
+                                    </div>
+                                    <div class="stock-item">
+                                        <a href="#"><i class="fas fa-hard-hat"></i> L&T</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <!-- Investment Options Section -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-section">
+                            <h3><i class="fas fa-chart-pie"></i> Investment Options</h3>
+                            <ul class="footer-links">
+                                <li><a href="investmentoptions.html">IPO Investments</a></li>
+                                <li><a href="NonConvertibleDebentures(NCD).html">Non-Convertible Debentures (NCD)</a></li>
+                                <li><a href="rightissues.html">Right Issue Opportunities</a></li>
+                                <li><a href="buyback.html">Stock Buybacks</a></li>
+                                <button class="toggle-btn">Show More +</button>
+                                <div class="toggle-content">
+                                    <li><a href="Investmentguide.html">Diversification Strategies</a></li>
+                                    <li><a href="traditionalinvesmrnt.html">Traditional Investments</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center" style="margin: 20px; padding: 20px;">
+                <span class="text-white opacity-50"> Copyright © 2025 School Of Stock Market. All Rights Reserved </span>
+            </div>
+           
     </footer>
-    
     <div class="btn-scroll-top"><svg class="progress-square svg-content" width="100%" height="100%" viewBox="0 0 40 40">
             <path
                 d="M8 1H32C35.866 1 39 4.13401 39 8V32C39 35.866 35.866 39 32 39H8C4.13401 39 1 35.866 1 32V8C1 4.13401 4.13401 1 8 1Z">
@@ -2083,7 +2144,6 @@
     <div data-site-cookie-domain="infinia.botble.com"></div>
     <div data-site-session-secure=""></div>
     <script> document.addEventListener('DOMContentLoaded', function () { function checkCookie(name) { return document.cookie.split(';').some((item) => item.trim().startsWith(name + '=')); } setTimeout(function () { const cookieName = document.querySelector('div[data-site-cookie-name]').getAttribute('data-site-cookie-name') || 'cookie_for_consent'; if (!checkCookie(cookieName)) { const siteNotice = document.querySelector('.js-site-notice'); if (siteNotice) { siteNotice.classList.add('site-notice--visible'); } } }, 1000); }); window.addEventListener('load', function () { if (typeof gtag !== 'undefined') { gtag('consent', 'default', { 'ad_storage': 'denied', 'analytics_storage': 'denied' }); document.addEventListener('click', function (event) { if (event.target.classList.contains('js-site-notice-agree')) { const categories = document.querySelectorAll('.js-cookie-category:checked'); const consents = { 'ad_storage': 'denied', 'analytics_storage': 'denied' }; categories.forEach(function (category) { if (category.value === 'marketing') { consents.ad_storage = 'granted'; } if (category.value === 'analytics') { consents.analytics_storage = 'granted'; } }); gtag('consent', 'update', consents); } }); } window.botbleCookieConsent = (function () { const COOKIE_NAME = document.querySelector('div[data-site-cookie-name]').getAttribute('data-site-cookie-name') || 'cookie_for_consent'; const COOKIE_DOMAIN = document.querySelector('div[data-site-cookie-domain]').getAttribute('data-site-cookie-domain') || window.location.hostname; const COOKIE_LIFETIME = parseInt(document.querySelector('div[data-site-cookie-lifetime]').getAttribute('data-site-cookie-lifetime') || '36000', 10); const SESSION_SECURE = document.querySelector('div[data-site-session-secure]').getAttribute('data-site-session-secure') || ''; const cookieDialog = document.querySelector('.js-site-notice'); const cookieCategories = document.querySelector('.site-notice__categories'); const customizeButton = document.querySelector('.js-site-notice-customize'); if (cookieDialog) { if (cookieCategories) { cookieCategories.style.display = 'none'; } if (!cookieExists(COOKIE_NAME)) { setTimeout(function () { cookieDialog.classList.add('site-notice--visible'); }, 800); } } function consentWithCookies() { const categories = {}; document.querySelectorAll('.js-cookie-category:checked').forEach(function (checkbox) { categories[checkbox.value] = true; }); setCookie(COOKIE_NAME, JSON.stringify(categories), COOKIE_LIFETIME); hideCookieDialog(); } function savePreferences() { consentWithCookies(); if (cookieCategories) { const slideUpAnimation = cookieCategories.animate([{ opacity: 1, height: cookieCategories.offsetHeight + 'px' }, { opacity: 0, height: 0 }], { duration: 300, easing: 'ease-out' }); slideUpAnimation.onfinish = function () { cookieCategories.style.display = 'none'; }; } if (customizeButton) { customizeButton.classList.remove('active'); } } function rejectAllCookies() { if (cookieExists(COOKIE_NAME)) { document.cookie = COOKIE_NAME + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=' + COOKIE_DOMAIN + '; path=/' + SESSION_SECURE; } if (typeof gtag !== 'undefined') { gtag('consent', 'update', { 'ad_storage': 'denied', 'analytics_storage': 'denied' }); } hideCookieDialog(); } function cookieExists(name) { const cookie = getCookie(name); return cookie !== null && cookie !== undefined; } function getCookie(name) { const value = `; ${document.cookie}`; const parts = value.split(`; ${name}=`); if (parts.length === 2) { return parts.pop().split(';').shift(); } return null; } function hideCookieDialog() { if (cookieDialog) { cookieDialog.classList.remove('site-notice--visible'); cookieDialog.style.display = 'none'; } } function setCookie(name, value, expirationInDays) { const date = new Date(); date.setTime(date.getTime() + expirationInDays * 24 * 60 * 60 * 1000); document.cookie = name + '=' + value + ';expires=' + date.toUTCString() + ';domain=' + COOKIE_DOMAIN + ';path=/' + SESSION_SECURE; } function toggleCustomizeView() { if (!cookieCategories) return; if (cookieCategories.style.display === 'none') { cookieCategories.style.height = '0'; cookieCategories.style.opacity = '0'; cookieCategories.style.display = 'block'; const height = cookieCategories.scrollHeight; const slideDownAnimation = cookieCategories.animate([{ opacity: 0, height: 0 }, { opacity: 1, height: height + 'px' }], { duration: 300, easing: 'ease-in' }); slideDownAnimation.onfinish = function () { cookieCategories.style.height = 'auto'; cookieCategories.style.opacity = '1'; }; if (customizeButton) { customizeButton.classList.add('active'); } } else { const slideUpAnimation = cookieCategories.animate([{ opacity: 1, height: cookieCategories.offsetHeight + 'px' }, { opacity: 0, height: 0 }], { duration: 300, easing: 'ease-out' }); slideUpAnimation.onfinish = function () { cookieCategories.style.display = 'none'; }; if (customizeButton) { customizeButton.classList.remove('active'); } } } if (cookieExists(COOKIE_NAME)) { hideCookieDialog(); } document.addEventListener('click', function (event) { if (event.target.classList.contains('js-site-notice-agree')) { consentWithCookies(); } else if (event.target.classList.contains('js-site-notice-reject')) { rejectAllCookies(); } else if (event.target.classList.contains('js-site-notice-customize')) { toggleCustomizeView(); } else if (event.target.classList.contains('js-site-notice-save')) { savePreferences(); } }); return { consentWithCookies: consentWithCookies, rejectAllCookies: rejectAllCookies, hideCookieDialog: hideCookieDialog, savePreferences: savePreferences, }; })(); });</script>
-    <script> let switchers = document.querySelectorAll('.dark-light-switcher'); function updateTheme(isDarkMode) { switchers.forEach(function (switcher) { let darkIcon = switcher.querySelector('.bi-sun-fill'); let lightIcon = switcher.querySelector('.bi-moon-stars-fill'); if (isDarkMode) { lightIcon.style.display = 'none'; darkIcon.style.display = 'block'; } else { lightIcon.style.display = 'block'; darkIcon.style.display = 'none'; } }); document.documentElement.setAttribute('data-bs-theme', isDarkMode ? 'dark' : 'light'); } let storedTheme = localStorage.getItem('theme'); if (!storedTheme) { let htmlTheme = document.documentElement.getAttribute('data-bs-theme'); if (htmlTheme === 'system') { let prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches; storedTheme = prefersDarkMode ? 'dark' : 'light'; } else { storedTheme = htmlTheme; } } let isDarkMode = storedTheme === 'dark'; updateTheme(isDarkMode); switchers.forEach(function (switcher) { switcher.addEventListener('click', function () { let currentTheme = localStorage.getItem('theme') || storedTheme; let isDarkMode = currentTheme === 'dark'; let newTheme = isDarkMode ? 'light' : 'dark'; localStorage.setItem('theme', newTheme); updateTheme(newTheme === 'dark'); }); }); </script>
     <script defer=""
         src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
         data-cf-beacon="{"
@@ -2250,6 +2310,404 @@
           }, 1000);
         }
       });
+    </script>
+    <script>
+      var mobileMenuClose = document.getElementById('mobile-menu-close');
+      mobileMenuClose.addEventListener('click', closeMenu);
+    </script>
+    <script>
+      var mobileMenuBack = document.getElementById('mobile-menu-back');
+      mobileMenuBack.addEventListener('click', backToHome);
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var backBtn = document.getElementById('mobile-menu-back');
+        if (backBtn) {
+          backBtn.onclick = function() {
+            window.location.href = 'index.html';
+          };
+        }
+      });
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var closeBtn = document.getElementById('mobile-menu-close');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var overlay = document.getElementById('mobile-menu-overlay');
+        if (closeBtn && mobileMenu && overlay) {
+          closeBtn.onclick = function() {
+            mobileMenu.classList.remove('active');
+            overlay.classList.remove('active');
+            overlay.style.display = 'none';
+            document.body.style.overflow = '';
+          };
+          // Also allow overlay click to close
+          overlay.onclick = closeBtn.onclick;
+        }
+      });
+    </script>
+
+    <!-- Financial Portal Footer Content -->
+    <style>
+        .content {
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+            width: 100%;
+        }
+        
+        .content h2 {
+            color: #1e5799;
+            margin-bottom: 20px;
+            font-family: 'Montserrat', sans-serif;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+        }
+        
+        .content p {
+            line-height: 1.7;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        /* Footer Styles */
+        .footer {
+            background: #111827;
+            color: #f5f5f5;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.15);
+            width: 100%;
+            margin-top: auto;
+        }
+        
+        .footer-top {
+            padding: 40px 0 20px;
+        }
+        
+        .footer-section {
+            margin-bottom: 30px;
+        }
+        
+        .footer-section h3 {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3a506b;
+            font-family: 'Montserrat', sans-serif;
+            
+            display: flex;
+            align-items: center;
+        }
+        
+        .footer-section h3 i {
+            margin-right: 10px;
+            color: #4da8da;
+        }
+        
+        .footer-section h4 {
+            font-size: 1.1rem;
+            margin: 15px 0 10px;
+            color: #4da8da;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 8px;
+        }
+        
+        .footer-links a {
+            color: #b1c7e0;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: block;
+            padding: 5px 0;
+            font-size: 0.95rem;
+        }
+        
+        .footer-links a:hover {
+            color: #fff;
+            transform: translateX(5px);
+        }
+        
+        .footer-info {
+            background: rgba(0, 0, 0, 0.25);
+            padding: 30px 0;
+        }
+        
+        .footer-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .footer-info p {
+            line-height: 1.7;
+            margin-bottom: 15px;
+            color: #b1c7e0;
+            font-size: 0.95rem;
+        }
+        
+        .footer-info a {
+            color: #4da8da;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-info a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        
+        .address-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .address-box {
+            flex: 1;
+            min-width: 300px;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 3px solid #4da8da;
+        }
+        
+        .address-box strong {
+            display: block;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        
+        .footer-bottom {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 20px 0;
+            text-align: center;
+            color: #b1c7e0;
+            font-size: 0.9rem;
+        }
+        
+        .download-app {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background: linear-gradient(135deg, #1e5799 0%, #207cca 100%);
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center;
+            z-index: 1000;
+            max-width: 300px;
+        }
+        
+        .download-app img {
+            width: 80px;
+            height: 80px;
+            margin-right: 15px;
+            border-radius: 8px;
+            border: 2px solid white;
+        }
+        
+        .download-app-content h4 {
+            color: white;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+    
+        /* Responsive Grid */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+        }
+        
+        .col-lg-3, .col-md-6, .col-sm-6, .col-lg-4 {
+            padding: 0 15px;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        
+        @media (min-width: 576px) {
+            .col-sm-6 {
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .col-md-6 {
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .col-lg-3 {
+                flex: 0 0 25%;
+                max-width: 25%;
+            }
+            .col-lg-4 {
+                flex: 0 0 33.3333%;
+                max-width: 33.3333%;
+            }
+        }
+        
+        .toggle-content {
+            display: none;
+        }
+        
+        .toggle-btn {
+            background: none;
+            border: none;
+            color: #4da8da;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 5px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .toggle-btn:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .sub-section {
+            margin-bottom: 20px;
+        }
+        
+        .sub-section h4 {
+            display: flex;
+            align-items: center;
+        }
+        
+        .sub-section h4 i {
+            margin-right: 8px;
+            color: #5bc0de;
+            font-size: 0.9rem;
+        }
+        
+        .stock-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        
+        .stock-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 10px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        .stock-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-3px);
+        }
+        
+        .stock-item a {
+            color: #b1c7e0;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        .stock-item a i {
+            margin-right: 8px;
+            color: #5bc0de;
+            font-size: 0.8rem;
+        }
+        
+        .stock-item:hover a {
+            color: #fff;
+        }
+        
+        .quick-links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .quick-link-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 3px solid #5bc0de;
+            transition: all 0.3s ease;
+        }
+        
+        .quick-link-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border-left: 3px solid #4da8da;
+        }
+        
+        .quick-link-item h4 {
+            color: #fff;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .quick-link-item h4 i {
+            margin-right: 8px;
+        }
+        
+        .quick-link-item ul {
+            list-style: none;
+        }
+        
+        .quick-link-item li {
+            margin-bottom: 8px;
+            padding-left: 10px;
+            position: relative;
+        }
+        
+        .quick-link-item li:before {
+            content: "•";
+            color: #4da8da;
+            position: absolute;
+            left: 0;
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Toggle functionality for show more/less
+            const toggleButtons = document.querySelectorAll('.toggle-btn');
+            
+            toggleButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    if (content.style.display === 'block') {
+                        content.style.display = 'none';
+                        this.textContent = 'Show More +';
+                    } else {
+                        content.style.display = 'block';
+                        this.textContent = 'Show Less -';
+                    }
+                });
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
     </script>
 </body>
 

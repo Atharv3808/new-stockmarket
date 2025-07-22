@@ -470,9 +470,7 @@ img {
     background-color: var(--tc-system-muted) !important
 }
 
-.bg-dark {
-    background-color: var(--tc-system-dark) !important
-}
+
 
 .bg-light {
     background-color: var(--tc-system-white) !important
@@ -2676,7 +2674,7 @@ textarea {
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
-    padding: 0 0 30px
+    padding: 100px 0 30px
 }
 
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .burger-icon {
@@ -6921,10 +6919,6 @@ strong {
         margin-inline-start: 1rem !important
     }
 
-    .ms-sm-5 {
-        margin-inline-start: 2rem !important
-    }
-
     .ms-sm-6 {
         margin-inline-start: 2.5rem !important
     }
@@ -8520,11 +8514,6 @@ strong {
         margin-top: 2rem !important
     }
 
-    .my-md-6 {
-        margin-bottom: 2.5rem !important;
-        margin-top: 2.5rem !important
-    }
-
     .my-md-7 {
         margin-bottom: 3rem !important;
         margin-top: 3rem !important
@@ -9710,7 +9699,7 @@ strong {
 
 @media(min-width:992px) {
     .text-lg-white {
-        color: #fff !important
+        color: var(--bs-white) !important
     }
 
     .float-lg-start {
@@ -10508,10 +10497,6 @@ strong {
         margin-inline-start: .5rem !important
     }
 
-    .ms-lg-3 {
-        margin-inline-start: 1rem !important
-    }
-
     .ms-lg-4 {
         margin-inline-start: 1.5rem !important
     }
@@ -11305,11 +11290,6 @@ strong {
         column-gap: 2.5rem !important
     }
 
-    .column-gap-lg-8 {
-        -moz-column-gap: 4rem !important;
-        column-gap: 4rem !important
-    }
-
     .column-gap-lg-9 {
         -moz-column-gap: 5rem !important;
         column-gap: 5rem !important
@@ -12101,11 +12081,6 @@ strong {
     .my-xl-2 {
         margin-bottom: .5rem !important;
         margin-top: .5rem !important
-    }
-
-    .my-xl-3 {
-        margin-bottom: 1rem !important;
-        margin-top: 1rem !important
     }
 
     .my-xl-4 {
@@ -17195,4 +17170,103 @@ body[dir=rtl] .btn-scroll-top {
     color: var(--tc-system-dark);
     font-size: 24px;
     font-weight: 700
+}
+.ticker-wrap {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+  }
+  
+  .ticker {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 20s linear infinite;
+  }
+  
+  .ticker-item {
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .ticker-item span {
+    font-weight: bold;
+    margin-left: 8px;
+    color: #00ff00;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .close-mobile-header{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  padding: 10px;
+
+  }
+@media (max-width: 991.98px) {
+  .shortcode-hero-banner .row.content {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  .shortcode-hero-banner .col-lg-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-bottom: 2rem;
+  }
+  .shortcode-hero-banner .pe-2 {
+    padding-right: 0 !important;
+  }
+  .shortcode-hero-banner h3.ds-3 {
+    font-size: 3rem !important;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .shortcode-hero-banner p.pe-10 {
+    padding-right: 0 !important;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .shortcode-hero-banner .btn,
+  .shortcode-hero-banner .btn + .btn {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-left: 0 !important;
+  }
+  .shortcode-hero-banner .btn + .btn {
+    margin-top: 0;
+  }
+  .shortcode-hero-banner .position-relative {
+    justify-content: center !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+@media (max-width: 575.98px) {
+  .shortcode-hero-banner h3.ds-3 {
+    font-size: 1.5rem !important;
+  }
+  .shortcode-hero-banner p.pe-10 {
+    font-size: 0.95rem;
+  }
+  .shortcode-hero-banner .hero-img,
+  .shortcode-hero-banner .shape-1 img,
+  .shortcode-hero-banner .shape-2 img,
+  .shortcode-hero-banner .shape-3 img {
+    max-width: 95vw;
+  }
+  .shortcode-hero-banner .alltuchtopdown.card-hero {
+    max-width: 95vw;
+    padding: 1rem;
+  }
+}
 }

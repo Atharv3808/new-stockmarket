@@ -166,7 +166,7 @@
         }
 
         .contact-info-card {
-            background: linear-gradient(135deg, #6d4df2 0%, #8c71ff 100%);
+           
             border-radius: 15px;
             padding: 2rem;
             color: white;
@@ -197,114 +197,155 @@
             padding: 1rem;
             margin-top: 1rem;
         }
-    </style>
+    </style>    
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light w-100 z-999 navbar-sticky">
-            <div class="container"><a class="navbar-brand d-flex main-logo align-items-center"
-                    href="index.html"><img src="images/kj-removebg-preview.png" data-bb-lazy="false"
-                        alt="School of Stock Market" class="logo-dark page_speed_183384709"><img
-                        src="images/kj-removebg-preview.png" data-bb-lazy="false" alt="School of Stock Market"
-                        class="logo-white page_speed_183384709"></a>
-                <div class="d-none d-lg-flex">
-                    <ul class="navbar-nav mx-auto gap-4 align-items-lg-center">
-                        <li class="nav-item dropdown"><a
-                                class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="#"
-                                target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Markets </a>
-                            <div class="dropdown-menu p-4">
-                                <ul class="list-unstyled">
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Forex </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Indices </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Stocks </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Commodities </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Cryptocurrencies </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> ETFs </a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown"><a
-                                class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="#"
-                                target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Platforms </a>
-                            <div class="dropdown-menu p-4">
-                                <ul class="list-unstyled">
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> FIX API </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Metatrader </a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown"><a
-                                class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="#"
-                                target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tools & Education </a>
-                            <div class="dropdown-menu p-4">
-                                <ul class="list-unstyled">
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> FXblue </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Trading Central </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> VPS </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Margin Requirements </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Candlesticks </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Trade Strategies </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Indicators </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Market Insights </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="#" target="_self"> Guides </a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown"><a
-                                class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="about.html"
-                                target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About Us </a>
-                            <div class="dropdown-menu p-4">
-                                <ul class="list-unstyled">
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="about.html" target="_self"> About SOSM </a></li>
-                                    <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
-                                            href="contact.html" target="_self"> Contact Us </a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0"><a href="#" title="Search"
-                        data-bs-toggle="offcanvas" data-bs-target=".offcanvasTop"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path class="stroke-dark"
-                                d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z"
-                                stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></a>
-                    <div
-                        class="dark-light-switcher d-flex justify-content-center align-items-center icon-shape icon-md border bg-white rounded-3 ms-3 me-md-3 me-0">
-                        <i class="bi theme-icon bi-sun-fill"></i><i class="bi theme-icon bi-moon-stars-fill"></i>
-                    </div>
-                    <a href="contact.html" class="btn btn-gradient d-none d-md-block"> Contact Us </a>
-                    <div class="burger-icon burger-icon-white border rounded-3"><span
-                            class="burger-icon-top"></span><span class="burger-icon-mid"></span><span
-                            class="burger-icon-bottom"></span></div>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light w-100 z-999 navbar-sticky">
+        <div class="container"><a class="navbar-brand d-flex main-logo align-items-center"
+                href="index.html"><img src="images/kj-removebg-preview.png" data-bb-lazy="false"
+                    alt="Multipurpose Business & Startup Theme" class="logo-dark page_speed_183384709"><img
+                    src="images/kj-removebg-preview.png" data-bb-lazy="false" alt="Multipurpose Business & Startup Theme"
+                    class="logo-white page_speed_183384709"></a>
+            <div class="d-none d-lg-flex">
+                <ul class="navbar-nav mx-auto gap-4 align-items-lg-center">
+                    <li class="nav-item"><a
+                            class="nav-link fw-bold d-md-flex align-items-center" href="Pricing.html"
+                            target="_self">Model Portfolio</a>
+                    </li>
+                    <li class="nav-item"><a
+                            class="nav-link fw-bold d-md-flex align-items-center" href="Brochers.html"
+                            target="_self">Investment Advisory</a>
+                    </li>
+                    <li class="nav-item dropdown"><a
+                            class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="#"
+                            target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tools & Education </a>
+                        <div class="dropdown-menu p-4">
+                            <ul class="list-unstyled">
+                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                        href="#" target="_self"> Stock Market Courses </a></li>
+                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                        href="#" target="_self"> Mutual Fund Education </a></li>
+                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                        href="#" target="_self"> Technical Analysis </a></li>
+                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                        href="#" target="_self"> Fundamental Analysis </a></li>
+                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                        href="#" target="_self"> Market Research </a></li>
+                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                        href="#" target="_self"> Investment Tools </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown"><a
+                            class="nav-link fw-bold d-md-flex align-items-center dropdown-toggle " href="about.html"
+                            target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About Us </a>
+                        <div class="dropdown-menu p-4">
+                            <ul class="list-unstyled">
+                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                        href="about.html" target="_self"> About School Of Stock Market </a></li>
+                                <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center "
+                                        href="contact.html" target="_self"> Contact Us </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a
+                        class="nav-link fw-bold d-md-flex align-items-center" href="subscription.html   "
+                        target="_self">Pricing</a>
+                </li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0"></div>
+                <a href="" class="btn btn-gradient d-none d-md-block"> Login/Signup</a>
+                <div class="burger-icon burger-icon-white border rounded-3"><span
+                        class="burger-icon-top"></span><span class="burger-icon-mid"></span><span
+                        class="burger-icon-bottom"></span></div>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-top offcanvasTop h-50" tabindex="-1">
+       
+        <div class="offcanvas-body">
+            <div class="container">
+                <div class="row py-md-5 py-2">
+                    <form action="h" method="GET" class="col-12 col-lg-8 mx-auto">
+                        <h4 class="mb-2 fs-sm-5">What are you looking for?</h4>
+                        <p class="text-500 fs-6 mb-5">Explore our services and discover how we can help you achieve
+                            your goals</p>
+                        <div class="input-group" data-aos="zoom-in"><input type="text"
+                                class="form-control ps-5 rounded-start-pill" name="name"
+                                placeholder="Enter Your Keywords"><button type="submit"
+                                class="btn btn-primary rounded-end-pill"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </svg></button></div>
+                        <div class="d-flex flex-column flex-lg-row mt-5"><strong
+                                class="d-inline fs-6 me-2">Suggest:</strong>
+                            <div class="d-flex flex-wrap gap-2"><a
+                                    href="#">Startup</a><a
+                                    href="#"> Agency</a><a
+                                    href="#"> Creative</a><a
+                                    href="#"> Consulting</a><a
+                                    href="#"> IT services</a><a
+                                    href="#"> Pricing</a></div>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </div>
+    <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar button-bg-2">
+        <div class="mobile-header-wrapper-inner">
+            <a href="index.html" class="close-mobile-header float-right ml-auto">Close</a>
+            <div class="mobile-header-content-area">
+                <div class="perfect-scroll">
+                    <div class="mobile-menu-wrap mobile-header-border">                            <nav>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a class="nav-link" href="#" target="_self"> Markets </a>
+                                </li>
+                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Invest </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/high-yield" target="_self"> High Yield </a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Conditions </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/deposits-and-withdrawals" target="_self"> Deposits and Withdrawals </a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Accounts </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/classic" target="_self"> Classic </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/premier" target="_self"> Premier </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/vip" target="_self"> VIP </a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="/demo" target="_self"> Demo </a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#" target="_self"> Platforms </a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#" target="_self"> Tools & Education </a>
+                                </li>
+                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About Us </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="about.html" target="_self"> About School Of Stock Market</a></li>
+                                        <li class="nav-item"><a class="nav-link fw-bold d-md-flex align-items-center" href="contact.html" target="_self"> Contact Us </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
     <main>
         <!-- Hero Section -->
-        <section class="hero-banner position-relative overflow-hidden section-padding" style="background: linear-gradient(135deg, #6d4df2 0%, #8c71ff 100%);">
+        <section class="hero-banner position-relative overflow-hidden section-padding">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -315,7 +356,7 @@
                             </div>
                             <h1 class="mb-4">Contact Us</h1>
                             <p class="fs-5 mb-0">We'd love to hear from you!</p>
-                            <p class="fs-6 opacity-75">Whether you have questions about our courses, research services, or partnerships, the School of Stock Market (SOSM) team is here to help.</p>
+                            <p class="fs-6 opacity-75">Whether you have questions about our courses, research services, or partnerships, the School Of Stock Market (School Of Stock Market) team is here to help.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -330,96 +371,108 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
-                        <div class="contact-form-card">
-                            <h3 class="mb-4">Send us a Message</h3>
-                            <p class="text-muted mb-4">Have a question? Fill out the form below and our team will get back to you within 24–48 hours.</p>
-                            
+                        <div class="contact-form-card shadow-lg p-4 rounded-4 bg-white position-relative" data-aos="fade-up">
+                            <h3 class="mb-3 fw-bold text-primary">Send us a Message</h3>
                             <form>
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <label for="firstName" class="form-label">First Name *</label>
-                                        <input type="text" class="form-control" id="firstName" required>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+                                            <label for="firstName"><i class="bi bi-person"></i> First Name *</label>
+                                        </div>
                                     </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="lastName" class="form-label">Last Name *</label>
-                                        <input type="text" class="form-control" id="lastName" required>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                                            <label for="lastName"><i class="bi bi-person"></i> Last Name *</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                            <label for="email"><i class="bi bi-envelope"></i> Email Address *</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="tel" class="form-control" id="phone" placeholder="Phone">
+                                            <label for="phone"><i class="bi bi-telephone"></i> Phone Number</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="subject" required>
+                                                <option value="">Select a subject</option>
+                                                <option value="course-inquiry">Course Inquiry</option>
+                                                <option value="research-services">Research Services</option>
+                                                <option value="partnership">Partnership</option>
+                                                <option value="technical-support">Technical Support</option>
+                                                <option value="general">General Inquiry</option>
+                                            </select>
+                                            <label for="subject"><i class="bi bi-list-task"></i> Subject *</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" id="message" placeholder="Message" style="height: 120px" required></textarea>
+                                            <label for="message"><i class="bi bi-chat-dots"></i> Message *</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-end">
+                                        <button type="submit" class="btn btn-gradient px-5 py-3">Send Message</button>
                                     </div>
                                 </div>
-                                
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <label for="email" class="form-label">Email Address *</label>
-                                        <input type="email" class="form-control" id="email" required>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="phone" class="form-label">Phone Number</label>
-                                        <input type="tel" class="form-control" id="phone">
-                                    </div>
-                                </div>
-                                
-                                <div class="mb-3">
-                                    <label for="subject" class="form-label">Subject *</label>
-                                    <select class="form-select" id="subject" required>
-                                        <option value="">Select a subject</option>
-                                        <option value="course-inquiry">Course Inquiry</option>
-                                        <option value="research-services">Research Services</option>
-                                        <option value="partnership">Partnership</option>
-                                        <option value="technical-support">Technical Support</option>
-                                        <option value="general">General Inquiry</option>
-                                    </select>
-                                </div>
-                                
-                                <div class="mb-4">
-                                    <label for="message" class="form-label">Message *</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Please describe your inquiry in detail..." required></textarea>
-                                </div>
-                                
-                                <button type="submit" class="btn btn-gradient px-5 py-3">Send Message</button>
                             </form>
                         </div>
                     </div>
                     
                     <div class="col-lg-4">
-                        <div class="contact-info-card">
-                            <h4 class="mb-4">Get in Touch</h4>
-                            
-                            <div class="mb-4">
-                                <div class="contact-icon">
-                                    <i class="bi bi-envelope-fill text-white"></i>
+                        <div class="contact-info-card glassmorphism p-4 mb-4" data-aos="fade-right">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="contact-icon bg-primary bg-opacity-25 me-3">
+                                    <i class="bi bi-envelope-fill fs-3 text-primary"></i>
                                 </div>
-                                <h6 class="mb-2">Email</h6>
-                                <p class="mb-0">info@schoolofstockmarket.com</p>
-                            </div>
-                            
-                            <div class="mb-4">
-                                <div class="contact-icon">
-                                    <i class="bi bi-telephone-fill text-white"></i>
+                                <div>
+                                    <h6 class="mb-1 fw-bold">Email</h6>
+                                    <p class="mb-0">info@schoolofstockmarket.com</p>
                                 </div>
-                                <h6 class="mb-2">Phone/WhatsApp</h6>
-                                <p class="mb-0">+91-9970101402</p>
                             </div>
-                            
-                            <div class="mb-4">
-                                <div class="contact-icon">
-                                    <i class="bi bi-globe text-white"></i>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="contact-icon bg-info bg-opacity-25 me-3">
+                                    <i class="bi bi-telephone-fill fs-3 text-info"></i>
                                 </div>
-                                <h6 class="mb-2">Website</h6>
-                                <p class="mb-0">www.schoolofstockmarket.com</p>
+                                <div>
+                                    <h6 class="mb-1 fw-bold">Phone/WhatsApp</h6>
+                                    <p class="mb-0">+91-9405669420</p>
+                                </div>
                             </div>
-                            
-                            <div class="office-hours">
-                                <h6 class="mb-2">Office Hours</h6>
-                                <p class="mb-0">Monday to Saturday<br>10:00 AM – 6:00 PM (IST)</p>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="contact-icon bg-secondary bg-opacity-25 me-3">
+                                    <i class="bi bi-globe fs-3 text-secondary"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-1 fw-bold">Website</h6>
+                                    <p class="mb-0">www.schoolofstockmarket.com</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="contact-icon bg-warning bg-opacity-25 me-3">
+                                    <i class="bi bi-clock fs-3 text-warning"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-1 fw-bold">Office Hours</h6>
+                                    <p class="mb-0">Monday to Saturday<br>10:00 AM – 6:00 PM (IST)</p>
+                                </div>
                             </div>
                         </div>
                         
-                        <div class="contact-info-card">
+                        <div class="contact-info-card glassmorphism p-4 mb-4" data-aos="fade-right">
                             <h4 class="mb-4">Office Address</h4>
                             <div class="contact-icon">
                                 <i class="bi bi-geo-alt-fill text-white"></i>
                             </div>
                             <p class="mb-0">
-                                <strong>SOSM Services Pvt. Ltd.</strong><br>
+                                <strong>School Of Stock Market Services Pvt. Ltd.</strong><br>
                                 Office B4/5, Omkar Plaza, Rajaram Road,<br>
                                 Near ICICI Bank, E Ward, Shahupuri,<br>
                                 Kolhapur, Maharashtra 416001<br>
@@ -427,7 +480,7 @@
                             </p>
                         </div>
                         
-                        <div class="contact-info-card">
+                        <div class="contact-info-card glassmorphism p-4 mb-4" data-aos="fade-right">
                             <h4 class="mb-4">Follow Us</h4>
                             <div class="d-flex gap-3">
                                 <a href="https://www.instagram.com/schoolofstockmarket24?igsh=eHZhdWR0MWZsNW8=" target="_blank" class="btn btn-outline-light">
@@ -553,25 +606,20 @@
                 <div class="container position-relative z-2">
                     <div class="row text-center py-4" style="margin-top: 2rem;">
                         <div class="col-12 mb-3">
-                            <div class="bg-dark bg-opacity-50 rounded-3 p-4 border border-light border-opacity-25">
-                                <h6 class="text-white mb-3 fw-bold">Disclaimer</h6>
-                                <p class="text-white opacity-90 fs-7 mb-0" style="line-height: 1.6;">
-                                    The content provided on this website is strictly for educational and informational purposes only. School of Stock Market (SOSM) does not offer any investment, legal, or tax advice through this platform.<br><br>
-                                    
+                            <div class="bg-primary bg-opacity-50 rounded-3 p-4 border border-dark border-opacity-25">
+                                <h6 class="text-dark mb-3 fw-bold">Disclaimer</h6>
+                                <p class="text-dark opacity-90 fs-7 mb-0" style="line-height: 1.6;">
+                                    The content provided on this website is strictly for educational and informational purposes only. School Of Stock Market does not offer any investment, legal, or tax advice through this platform.<br><br>
                                     While certain research reports, market views, and strategy insights may be shared by qualified professionals, including SEBI-registered Research Analysts, users must understand that none of the content should be construed as a direct recommendation to buy, sell, or hold any financial instrument.<br><br>
-                                    
                                     All investments involve risk, including potential loss of capital. Past performance is not indicative of future results. Users are advised to consult with a SEBI-registered Investment Advisor or relevant professional before making any investment decisions.<br><br>
-                                    
-                                    SOSM, its team, and associated partners are not liable for any losses or damages arising from the use of this platform, whether direct or indirect. The platform does not guarantee the accuracy, timeliness, or completeness of any information provided, especially as market data and conditions are subject to change.<br><br>
-                                    
-                                    We also do not engage in portfolio management or financial product distribution. Any platform-based access to third-party professionals or tools is provided for the user's convenience and learning.<br><br>
-                                    
+                                    School Of Stock Market, its team, and associated partners are not liable for any losses or damages arising from the use of this platform, whether direct or indirect. The platform does not guarantee the accuracy, timeliness, or completeness of any information provided, especially as market data and conditions are subject to change.<br><br>
+                                    We also do not engage in portfolio management or financial product distribution. Any platform-based access to third-party professionals or tools is provided for the user's convenience and learning.<br><br> 
                                     By accessing or using this website, you agree to this disclaimer and our Terms of Use and Privacy Policy.
                                 </p>
                             </div>
                         </div>
                         <div class="col-12">
-                            <span class="text-white opacity-50"> Copyright © 2025 School of Stock Market (SOSM). All Rights Reserved </span>
+                            <span class="text-white opacity-50"> Copyright © 2025 School Of Stock Market. All Rights Reserved </span>
                         </div>
                     </div>
                 </div>
